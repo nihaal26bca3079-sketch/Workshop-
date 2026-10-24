@@ -8,6 +8,14 @@
 
 ---
 
+## 🌐 Live Website & Links (Always Online 24/7)
+
+* 🚀 **Permanent Live Website URL:** [https://nihaal26bca3079-sketch.github.io/Workshop-/](https://nihaal26bca3079-sketch.github.io/Workshop-/)
+* 📂 **GitHub Repository:** [https://github.com/nihaal26bca3079-sketch/Workshop-](https://github.com/nihaal26bca3079-sketch/Workshop-)
+* ⚙️ **GitHub Pages Deployment Settings:** [https://github.com/nihaal26bca3079-sketch/Workshop-/settings/pages](https://github.com/nihaal26bca3079-sketch/Workshop-/settings/pages)
+
+---
+
 ## 📌 Problem Statement & Solution
 
 * **The Problem:** Many small Indian retailers rely on paper notebooks (*khata*), mental calculations, or complex spreadsheets to manage sales, inventory, expenses, and customer credit. This causes frequent stockouts of fast-moving items, undetected dead inventory locking up capital, and inaccurate calculations of true operational profitability.
