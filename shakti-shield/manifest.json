@@ -1,0 +1,24 @@
+{
+  "name": "Shakti Shield | Women Safety & Empowerment",
+  "short_name": "Shakti Shield",
+  "description": "Prevent, Protect, Empower — Women's safety tools, legal awareness, verified helplines, and empowerment resources for India in six languages.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FAF7FC",
+  "theme_color": "#5B2A86",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "last_verified": "2026-11-25",
+  "scholarships": [
+    {
+      "id": "aicte_pragati",
+      "status": "closed",
+      "verify": true,
+      "portal_url": "https://scholarships.gov.in"
+    },
+    {
+      "id": "aicte_saraswati",
+      "status": "open",
+      "verify": true,
+      "portal_url": "https://scholarships.gov.in"
+    }
+  ]
+}

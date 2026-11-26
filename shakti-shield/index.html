@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="shakti-base" content=".">
+  <title>Shakti Shield | Women Safety &amp; Empowerment</title>
+  <meta name="description" content="Shakti Shield brings women's safety tools, legal awareness, verified helplines, and empowerment resources in six languages for India.">
+  <meta name="keywords" content="women safety India, Shakti Shield, 112, 181, BNS, BNSS, Zero FIR, POSH Act, cyber safety, women empowerment">
+  <meta name="theme-color" content="#5B2A86">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <meta property="og:title" content="Shakti Shield | Women Safety &amp; Empowerment">
+  <meta property="og:description" content="Prevent, Protect, Empower — Safety tools, legal awareness, and empowerment resources for India in six languages.">
+  <meta property="og:type" content="website">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('shakti_theme');
+        if (t === 'dark' || (!t && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-page-title-key="meta.title" data-page-desc-key="meta.description">
+  <a href="#main-content" class="skip-link" data-i18n="skipLink">Skip to main content</a>
+
+  <!-- Privacy Notice Banner -->
+  <div id="privacy-banner" class="privacy-banner" role="region" aria-label="Privacy notice">
+    <div class="container privacy-banner__inner">
+      <p class="privacy-banner__text">
+        <span aria-hidden="true">&#128274;</span>
+        <span data-i18n="privacy.banner">Your data stays on your device. No tracking, no analytics, and no account needed.</span>
+      </p>
+      <button type="button" id="privacy-dismiss" class="privacy-banner__close" data-i18n="privacy.dismiss">Dismiss privacy notice</button>
+    </div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a href="index.html" class="brand-link">
+          <span class="brand-link__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <path d="M9 12l2 2 4-4"></path>
+            </svg>
+          </span>
+          <span class="brand-link__text" data-i18n="brand.name">Shakti Shield</span>
+        </a>
+
+        <div class="nav-controls">
+          <label for="language-select" class="sr-only" data-i18n="nav.languageLabel">Select language</label>
+          <select id="language-select" class="lang-select" aria-label="Select language" data-i18n-aria="nav.languageLabel">
+            <option value="en" lang="en">English</option>
+            <option value="hi" lang="hi">हिन्दी</option>
+            <option value="bn" lang="bn">বাংলা</option>
+            <option value="ta" lang="ta">தமிழ்</option>
+            <option value="kn" lang="kn">ಕನ್ನಡ</option>
+            <option value="te" lang="te">తెలుగు</option>
+          </select>
+
+          <button type="button" id="theme-toggle" class="icon-btn" aria-pressed="false" aria-label="Switch to dark mode">
+            <span data-theme-icon aria-hidden="true">&#9790;</span>
+            <span data-theme-label data-i18n="nav.darkModeLabel">Dark</span>
+          </button>
+
+          <button type="button" id="quick-exit-btn" class="quick-exit-btn" data-quick-exit aria-label="Quick Exit: leave this site immediately for a neutral page, or press Escape twice" data-i18n-aria="quickExit.ariaLabel">
+            <span aria-hidden="true">&#8599;</span>
+            <span data-i18n="quickExit.label">Quick Exit</span>
+          </button>
+
+          <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu" data-i18n-aria="nav.menuToggle">
+            &#9776;
+          </button>
+        </div>
+
+        <nav id="nav-menu" class="nav-menu" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link" data-i18n="nav.home">Home</a></li>
+            <li><a href="pages/emergency.html" class="nav-link" data-i18n="nav.emergency">Emergency</a></li>
+            <li><a href="pages/toolkit.html" class="nav-link" data-i18n="nav.toolkit">Safety Toolkit</a></li>
+            <li><a href="pages/incident-guide.html" class="nav-link" data-i18n="nav.incidentGuide">Incident Guide</a></li>
+            <li><a href="pages/cyber.html" class="nav-link" data-i18n="nav.cyber">Cyber Safety</a></li>
+            <li><a href="pages/rights.html" class="nav-link" data-i18n="nav.rights">Know Your Rights</a></li>
+            <li><a href="pages/defence.html" class="nav-link" data-i18n="nav.defence">Self-Defence</a></li>
+            <li><a href="pages/quiz.html" class="nav-link" data-i18n="nav.quiz">Safety Quiz</a></li>
+            <li><a href="pages/empowerment.html" class="nav-link" data-i18n="nav.empowerment">Empowerment</a></li>
+            <li><a href="pages/contact.html" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__deco-shape" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <div class="hero__eyebrow">
+            <span class="hero__eyebrow-dot" aria-hidden="true"></span>
+            <span data-i18n="home.heroEyebrow">Prevent, Protect, Empower</span>
+          </div>
+          <h1 id="hero-title" data-i18n="home.heroTitle">Shakti Shield</h1>
+          <p class="hero__tagline" data-i18n="home.heroTagline">Strength that protects. Power that uplifts.</p>
+          <p class="hero__description" data-i18n="home.heroDescription">
+            Safety tools, legal awareness, and empowerment resources for students, working women, and families in India, in six languages.
+          </p>
+
+          <div class="hero__actions">
+            <a href="pages/emergency.html" class="btn btn-emergency">
+              <span aria-hidden="true">&#128680;</span>
+              <span data-i18n="home.emergencyCta">Emergency Help &amp; SOS</span>
+            </a>
+            <a href="tel:112" class="btn btn-primary">
+              <span aria-hidden="true">&#128222;</span>
+              <span data-i18n="home.call112Cta">Call 112 Now</span>
+            </a>
+          </div>
+
+          <div class="hero__urgent-note" role="note">
+            <span aria-hidden="true">&#9888;&#65039;</span>
+            <span data-i18n="home.emergencyNote">If you are in immediate danger, call 112 first.</span>
+          </div>
+
+          <p class="hero__exit-hint" data-i18n="quickExit.hint">
+            Press Escape twice anytime for Quick Exit (does not clear earlier browser history).
+          </p>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__illustration-card">
+            <svg viewBox="0 0 240 220" width="240" height="220" role="img" aria-label="Protective shield symbol for safety, awareness, and empowerment" data-i18n-aria="home.heroIllustrationAlt">
+              <circle cx="120" cy="110" r="94" fill="#E8508A" fill-opacity="0.14"></circle>
+              <circle cx="120" cy="110" r="70" fill="#5B2A86" fill-opacity="0.12"></circle>
+              <path d="M120 34L178 56V106C178 145 152 175 120 188C88 175 62 145 62 106V56L120 34Z" fill="#5B2A86"></path>
+              <path d="M120 48L164 65V106C164 137 144 161 120 172C96 161 76 137 76 106V65L120 48Z" fill="#FAF7FC"></path>
+              <circle cx="120" cy="96" r="18" fill="#E8508A"></circle>
+              <path d="M95 142C95 127 106 118 120 118C134 118 145 127 145 142" stroke="#5B2A86" stroke-width="8" stroke-linecap="round" fill="none"></path>
+              <path d="M108 96L117 105L133 88" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+            </svg>
+            <p class="hero__tagline hero__visual-caption" data-i18n="brand.theme">Prevent, Protect, Empower</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Verified Helplines Strip -->
+    <section class="section section--soft" aria-labelledby="helplines-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="helplines-heading" data-i18n="home.helplinesHeading">Verified Helplines (India)</h2>
+          <p class="section__subtitle" data-i18n="home.helplinesNote">Availability can vary by state; always verify from official sources.</p>
+        </div>
+
+        <div id="home-helplines-list" class="helplines-grid" aria-live="polite">
+          <!-- Populated cleanly from data/helplines.json + active language file -->
+          <article class="helpline-card">
+            <div class="helpline-card__info">
+              <div class="helpline-card__number">112</div>
+              <p class="helpline-card__name" data-i18n="home.helplines.h112">National emergency number</p>
+            </div>
+            <a href="tel:112" class="btn btn-emergency"><span data-i18n="common.callPrefix">Call</span> 112</a>
+          </article>
+          <article class="helpline-card">
+            <div class="helpline-card__info">
+              <div class="helpline-card__number">181</div>
+              <p class="helpline-card__name" data-i18n="home.helplines.h181">Women helpline (24x7)</p>
+            </div>
+            <a href="tel:181" class="btn btn-emergency"><span data-i18n="common.callPrefix">Call</span> 181</a>
+          </article>
+          <article class="helpline-card">
+            <div class="helpline-card__info">
+              <div class="helpline-card__number">1091</div>
+              <p class="helpline-card__name" data-i18n="home.helplines.h1091">Women helpline</p>
+            </div>
+            <a href="tel:1091" class="btn btn-primary"><span data-i18n="common.callPrefix">Call</span> 1091</a>
+          </article>
+        </div>
+
+        <div class="meta-note-bar">
+          <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+          <span id="home-helplines-verified" data-i18n="common.lastVerified">Last verified: 2026-11-25</span>
+          <span data-i18n="common.verifySource">Verify from official sources.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Links to All Sections -->
+    <section class="section" aria-labelledby="quick-links-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="quick-links-heading" data-i18n="home.quickLinksHeading">Safety &amp; Empowerment Sections</h2>
+          <p class="section__subtitle" data-i18n="home.quickLinksSubtitle">Clear steps, practical safety tools, and verified information in plain language.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <div>
+              <div class="card__icon card__icon--emergency" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <h3 data-i18n="home.cards.emergency.title">Emergency &amp; SOS</h3>
+              <p class="card__desc" data-i18n="home.cards.emergency.desc">One-tap helpline calls, SOS countdown, Safe Journey Timer, fake call, and trusted contacts.</p>
+            </div>
+            <a href="pages/emergency.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+              </div>
+              <h3 data-i18n="home.cards.toolkit.title">Safety Toolkit</h3>
+              <p class="card__desc" data-i18n="home.cards.toolkit.desc">Travel, night commute, online, workplace, and home safety checklists.</p>
+            </div>
+            <a href="pages/toolkit.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              </div>
+              <h3 data-i18n="home.cards.incidentGuide.title">Incident Guide</h3>
+              <p class="card__desc" data-i18n="home.cards.incidentGuide.desc">Step-by-step reporting guidance, evidence tips, Zero FIR, and helplines.</p>
+            </div>
+            <a href="pages/incident-guide.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+              </div>
+              <h3 data-i18n="home.cards.cyber.title">Cyber Safety Centre</h3>
+              <p class="card__desc" data-i18n="home.cards.cyber.desc">Guidance on sextortion, fake profiles, deepfakes, privacy, and cybercrime.gov.in.</p>
+            </div>
+            <a href="pages/cyber.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <h3 data-i18n="home.cards.rights.title">Know Your Rights</h3>
+              <p class="card__desc" data-i18n="home.cards.rights.desc">Searchable guide to women's legal rights under BNS, BNSS, and POSH Act 2013.</p>
+            </div>
+            <a href="pages/rights.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h3 data-i18n="home.cards.defence.title">Self-Defence</h3>
+              <p class="card__desc" data-i18n="home.cards.defence.desc">Basic escape-first safety techniques with clear steps and guidance.</p>
+            </div>
+            <a href="pages/defence.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              </div>
+              <h3 data-i18n="home.cards.quiz.title">Safety Quiz</h3>
+              <p class="card__desc" data-i18n="home.cards.quiz.desc">Scenario-based practice quiz with score tracking saved only on your device.</p>
+            </div>
+            <a href="pages/quiz.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <h3 data-i18n="home.cards.empowerment.title">Empowerment Corner</h3>
+              <p class="card__desc" data-i18n="home.cards.empowerment.desc">Verified scholarship information, career tips, and inspiring real stories.</p>
+            </div>
+            <a href="pages/empowerment.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              </div>
+              <h3 data-i18n="home.cards.contact.title">Contact &amp; Feedback</h3>
+              <p class="card__desc" data-i18n="home.cards.contact.desc">Share feedback on clarity, accessibility, or translations locally.</p>
+            </div>
+            <a href="pages/contact.html" class="card__link"><span data-i18n="common.exploreLink">Open section</span> <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awareness Facts (Verified Legal Data Only — No Invented Statistics) -->
+    <section class="section section--soft" aria-labelledby="awareness-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="awareness-heading" data-i18n="home.awarenessHeading">Know the Facts: Rights &amp; Reporting</h2>
+          <p class="section__subtitle" data-i18n="home.awarenessSubtitle">Verified legal information for India. General information only, not legal advice.</p>
+        </div>
+
+        <div class="facts-grid">
+          <article class="fact-card">
+            <h3 data-i18n="home.awareness.fact1Title">Current Criminal Laws (BNS, BNSS, BSA)</h3>
+            <p class="fact-card__body" data-i18n="home.awareness.fact1Body">
+              BNS replaced the IPC on 1 July 2024; BNSS replaced the CrPC and BSA replaced the Evidence Act. Offences against women and children are grouped in Chapter V of the BNS.
+            </p>
+          </article>
+
+          <article class="fact-card">
+            <h3 data-i18n="home.awareness.fact2Title">Zero FIR &amp; Free Copy</h3>
+            <p class="fact-card__body" data-i18n="home.awareness.fact2Body">
+              Under BNSS Section 173, a Zero FIR can be registered at any police station regardless of where the offence happened, and the FIR copy is free.
+            </p>
+          </article>
+
+          <article class="fact-card">
+            <h3 data-i18n="home.awareness.fact3Title">If Police Refuse an FIR</h3>
+            <p class="fact-card__body" data-i18n="home.awareness.fact3Body">
+              Write to the Superintendent of Police, then approach the Magistrate under BNSS Section 175(3).
+            </p>
+          </article>
+
+          <article class="fact-card">
+            <h3 data-i18n="home.awareness.fact4Title">Workplace &amp; Domestic Protection</h3>
+            <p class="fact-card__body" data-i18n="home.awareness.fact4Body">
+              Workplace sexual harassment is covered under POSH Act 2013 (complaints can also go through the SHe-Box portal; verify). Domestic violence is covered under Protection of Women from Domestic Violence Act 2005 (verify).
+            </p>
+          </article>
+        </div>
+
+        <div class="meta-note-bar">
+          <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+          <span data-i18n="common.lastVerified">Last verified: 2026-11-25</span>
+          <span data-i18n="common.verifySource">Verify from official sources.</span>
+          <span data-i18n="common.notLegalAdvice">General information only, not legal advice.</span>
+        </div>
+
+        <p class="translation-notice" data-i18n="home.translationNotice">
+          Translations are machine-assisted drafts pending native-speaker review. Please verify critical legal and safety details from official sources.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-title" data-i18n="brand.name">Shakti Shield</h2>
+          <p class="card__desc" data-i18n="footer.tagline">Prevent, Protect, Empower — Simple safety, rights, and empowerment guidance for India.</p>
+                    <p class="footer-disclaimer" data-i18n="footer.disclaimer">
+            Disclaimer: General information only, not legal advice and not a substitute for emergency services (112).
+          </p>
+          <div class="footer-links">
+            <a href="https://nihaal26bca3079-sketch.github.io/Workshop-/shakti-shield/" target="_blank" rel="noopener noreferrer" data-i18n="footer.liveLink">Permanent Live URL</a>
+            <span aria-hidden="true">&bull;</span>
+            <a href="https://github.com/nihaal26bca3079-sketch/Workshop-/tree/main/shakti-shield" target="_blank" rel="noopener noreferrer" data-i18n="footer.repoLink">GitHub Repo</a>
+            <span aria-hidden="true">&bull;</span>
+            <a href="https://github.com/nihaal26bca3079-sketch" target="_blank" rel="noopener noreferrer">GitHub: @nihaal26bca3079-sketch</a>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="footer-title" data-i18n="footer.limitationsTitle">Important Limitations</h2>
+          <ul class="footer-list">
+            <li data-i18n="footer.limitation1">SOS alerts are alert assistance: you must tap send in WhatsApp or SMS.</li>
+            <li data-i18n="footer.limitation2">Data is stored only in your browser (localStorage).</li>
+            <li data-i18n="footer.limitation3">Quick Exit does not clear earlier browser history.</li>
+            <li data-i18n="footer.limitation4">Laws, helplines, and scholarship details change; verify from official sources.</li>
+            <li data-i18n="footer.limitation5">Translations are machine-assisted drafts pending native-speaker review.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer.copyright">Shakti Shield • Six-language public safety resource • No analytics or tracking</span>
+        <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/fallback-data.js"></script>
+  <script src="js/language.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

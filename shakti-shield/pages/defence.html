@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="shakti-base" content="..">
+  <title>Self-Defence | Shakti Shield</title>
+  <meta name="description" content="Basic escape-first self-defence steps with simple illustrations. Always prioritise escaping and calling for help over confrontation.">
+  <meta name="theme-color" content="#5B2A86">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="icon" type="image/png" href="../icons/icon-192.png">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('shakti_theme');
+        if (t === 'dark' || (!t && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body data-page-title-key="defence.meta.title" data-page-desc-key="defence.meta.description">
+  <a href="#main-content" class="skip-link" data-i18n="skipLink">Skip to main content</a>
+
+  <!-- Privacy Notice Banner -->
+  <div id="privacy-banner" class="privacy-banner" role="region" aria-label="Privacy notice">
+    <div class="container privacy-banner__inner">
+      <p class="privacy-banner__text">
+        <span aria-hidden="true">&#128274;</span>
+        <span data-i18n="privacy.banner">Your data stays on your device. No tracking, no analytics, and no account needed.</span>
+      </p>
+      <button type="button" id="privacy-dismiss" class="privacy-banner__close" data-i18n="privacy.dismiss">Dismiss privacy notice</button>
+    </div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a href="../index.html" class="brand-link">
+          <span class="brand-link__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <path d="M9 12l2 2 4-4"></path>
+            </svg>
+          </span>
+          <span class="brand-link__text" data-i18n="brand.name">Shakti Shield</span>
+        </a>
+
+        <div class="nav-controls">
+          <label for="language-select" class="sr-only" data-i18n="nav.languageLabel">Select language</label>
+          <select id="language-select" class="lang-select" aria-label="Select language" data-i18n-aria="nav.languageLabel">
+            <option value="en" lang="en">English</option>
+            <option value="hi" lang="hi">हिन्दी</option>
+            <option value="bn" lang="bn">বাংলা</option>
+            <option value="ta" lang="ta">தமிழ்</option>
+            <option value="kn" lang="kn">ಕನ್ನಡ</option>
+            <option value="te" lang="te">తెలుగు</option>
+          </select>
+
+          <button type="button" id="theme-toggle" class="icon-btn" aria-pressed="false" aria-label="Switch to dark mode">
+            <span data-theme-icon aria-hidden="true">&#9790;</span>
+            <span data-theme-label data-i18n="nav.darkModeLabel">Dark</span>
+          </button>
+
+          <button type="button" id="quick-exit-btn" class="quick-exit-btn" data-quick-exit aria-label="Quick Exit: leave this site immediately for a neutral page, or press Escape twice" data-i18n-aria="quickExit.ariaLabel">
+            <span aria-hidden="true">&#8599;</span>
+            <span data-i18n="quickExit.label">Quick Exit</span>
+          </button>
+
+          <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu" data-i18n-aria="nav.menuToggle">
+            &#9776;
+          </button>
+        </div>
+
+        <nav id="nav-menu" class="nav-menu" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link" data-i18n="nav.home">Home</a></li>
+            <li><a href="emergency.html" class="nav-link" data-i18n="nav.emergency">Emergency</a></li>
+            <li><a href="toolkit.html" class="nav-link" data-i18n="nav.toolkit">Safety Toolkit</a></li>
+            <li><a href="incident-guide.html" class="nav-link" data-i18n="nav.incidentGuide">Incident Guide</a></li>
+            <li><a href="cyber.html" class="nav-link" data-i18n="nav.cyber">Cyber Safety</a></li>
+            <li><a href="rights.html" class="nav-link" data-i18n="nav.rights">Know Your Rights</a></li>
+            <li><a href="defence.html" class="nav-link" data-i18n="nav.defence">Self-Defence</a></li>
+            <li><a href="quiz.html" class="nav-link" data-i18n="nav.quiz">Safety Quiz</a></li>
+            <li><a href="empowerment.html" class="nav-link" data-i18n="nav.empowerment">Empowerment</a></li>
+            <li><a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div id="defence-page-root">
+      <!-- Header & Escape-First Rule -->
+      <section class="section" aria-labelledby="defence-title">
+        <div class="container">
+          <div class="section__header">
+            <h1 id="defence-title" data-i18n="defence.heroTitle">Self-Defence Basics</h1>
+            <p class="section__subtitle" data-i18n="defence.heroSubtitle">
+              Simple awareness and escape-first steps to create space and reach safety.
+            </p>
+          </div>
+
+          <aside class="safety-note-box">
+            <div class="safety-note-box__content">
+              <h2 style="font-size:1.1rem;" data-i18n="defence.priorityBannerTitle">Core Rule: Escape and Call for Help First</h2>
+              <p class="card__desc" data-i18n="defence.priorityBannerBody">
+                Always prioritise getting away, making loud noise to draw attention, and calling 112 over physical confrontation. Use physical moves only to break free and run to safety.
+              </p>
+            </div>
+            <a href="tel:112" class="btn btn-emergency" data-i18n="home.call112Cta">Call 112 Now</a>
+          </aside>
+
+          <p class="translation-notice" data-i18n="defence.trainingNote">
+            Note: Seek professional, certified self-defence training for safe hands-on practice. General information only.
+          </p>
+        </div>
+      </section>
+
+      <!-- Step-by-Step Techniques with Inline SVG Illustrations -->
+      <section class="section section--soft" aria-labelledby="techniques-heading">
+        <div class="container">
+          <div class="section__header">
+            <h2 id="techniques-heading" data-i18n="defence.techniquesHeading">Step-by-Step Basic Escape Techniques</h2>
+            <p class="section__subtitle" data-i18n="defence.techniquesSubtitle">
+              Calm, practical steps focusing on balance, weak grip points, and moving away fast.
+            </p>
+          </div>
+
+          <div class="facts-grid">
+            <!-- 1. Safe Stance & Voice -->
+            <article class="card">
+              <div>
+                <div class="defence-svg-box">
+                  <svg viewBox="0 0 220 130" width="220" height="130" role="img" aria-label="Illustration showing a balanced open stance with both hands raised calmly in front" data-i18n-aria="defence.techniques.stance.svgAlt">
+                    <circle cx="66" cy="34" r="14" fill="#5B2A86"></circle>
+                    <path d="M52 54 L80 54 L84 90 L48 90 Z" fill="#5B2A86"></path>
+                    <path d="M54 90 L46 118 M76 90 L88 118" stroke="#5B2A86" stroke-width="7" stroke-linecap="round"></path>
+                    <path d="M80 60 L108 52 M52 60 L34 52" stroke="#C2185B" stroke-width="6" stroke-linecap="round"></path>
+                    <circle cx="110" cy="50" r="6" fill="#E8508A"></circle>
+                    <path d="M126 30 Q144 22 154 34 M130 44 Q152 38 164 52" stroke="#5B2A86" stroke-width="3" stroke-linecap="round" fill="none"></path>
+                    <path d="M174 28 L200 28 L200 102 L174 102 Z" fill="none" stroke="#5B2A86" stroke-width="3" stroke-dasharray="4 3"></path>
+                    <path d="M150 96 L186 96" stroke="#C2185B" stroke-width="3.5" stroke-linecap="round"></path>
+                    <path d="M180 90 L188 96 L180 102" stroke="#C2185B" stroke-width="3.5" stroke-linecap="round" fill="none"></path>
+                  </svg>
+                </div>
+                <h3 data-i18n="defence.techniques.stance.title">1. Safe Stance &amp; Voice Boundary</h3>
+                <p class="defence-goal" data-i18n="defence.techniques.stance.goal">Goal: Keep balance, protect your space, and attract nearby witnesses.</p>
+                <ul id="defence-stance-steps" class="wizard-step-list" style="list-style:none;padding-left:0;"></ul>
+              </div>
+            </article>
+
+            <!-- 2. Wrist Grab Release -->
+            <article class="card">
+              <div>
+                <div class="defence-svg-box">
+                  <svg viewBox="0 0 220 130" width="220" height="130" role="img" aria-label="Illustration showing rotating a grabbed wrist toward the attacker's thumb gap to break free" data-i18n-aria="defence.techniques.wrist.svgAlt">
+                    <rect x="26" y="56" width="84" height="18" rx="9" fill="#5B2A86"></rect>
+                    <path d="M98 40 C116 40 120 56 106 60" stroke="#E8508A" stroke-width="7" stroke-linecap="round" fill="none"></path>
+                    <path d="M98 88 C122 88 126 66 106 64" stroke="#E8508A" stroke-width="7" stroke-linecap="round" fill="none"></path>
+                    <path d="M114 34 A28 28 0 0 1 138 64" stroke="#C2185B" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                    <path d="M132 58 L139 67 L144 56" stroke="#C2185B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+                    <path d="M74 98 L40 98" stroke="#5B2A86" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M48 92 L38 98 L48 104" stroke="#5B2A86" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                  </svg>
+                </div>
+                <h3 data-i18n="defence.techniques.wrist.title">2. Wrist Grab Release (Thumb Gap)</h3>
+                <p class="defence-goal" data-i18n="defence.techniques.wrist.goal">Goal: Break a single-hand wrist grip by moving toward the thumb.</p>
+                <ul id="defence-wrist-steps" class="wizard-step-list" style="list-style:none;padding-left:0;"></ul>
+              </div>
+            </article>
+
+            <!-- 3. Open Palm Push -->
+            <article class="card">
+              <div>
+                <div class="defence-svg-box">
+                  <svg viewBox="0 0 220 130" width="220" height="130" role="img" aria-label="Illustration showing an open palm forward push to create space for escape" data-i18n-aria="defence.techniques.palm.svgAlt">
+                    <circle cx="52" cy="36" r="13" fill="#5B2A86"></circle>
+                    <path d="M40 54 L66 54 L66 96 L40 96 Z" fill="#5B2A86"></path>
+                    <path d="M66 64 L118 58" stroke="#5B2A86" stroke-width="7" stroke-linecap="round"></path>
+                    <rect x="116" y="42" width="12" height="30" rx="5" fill="#C2185B"></rect>
+                    <path d="M136 57 L166 57" stroke="#E8508A" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M158 50 L168 57 L158 64" stroke="#E8508A" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                    <path d="M88 104 L42 104" stroke="#5B2A86" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="5 4"></path>
+                  </svg>
+                </div>
+                <h3 data-i18n="defence.techniques.palm.title">3. Open Palm Push to Create Space</h3>
+                <p class="defence-goal" data-i18n="defence.techniques.palm.goal">Goal: Push away from a close front approach so you can escape.</p>
+                <ul id="defence-palm-steps" class="wizard-step-list" style="list-style:none;padding-left:0;"></ul>
+              </div>
+            </article>
+
+            <!-- 4. Everyday Barriers & Fast Exit -->
+            <article class="card">
+              <div>
+                <div class="defence-svg-box">
+                  <svg viewBox="0 0 220 130" width="220" height="130" role="img" aria-label="Illustration showing holding a bag as a barrier while moving toward an illuminated exit" data-i18n-aria="defence.techniques.barrier.svgAlt">
+                    <circle cx="58" cy="36" r="13" fill="#5B2A86"></circle>
+                    <path d="M46 54 L70 54 L70 96 L46 96 Z" fill="#5B2A86"></path>
+                    <rect x="82" y="54" width="32" height="36" rx="6" fill="#E8508A"></rect>
+                    <path d="M90 54 C90 44 106 44 106 54" stroke="#5B2A86" stroke-width="3.5" fill="none"></path>
+                    <rect x="154" y="24" width="42" height="82" rx="4" fill="#5B2A86" fill-opacity="0.16" stroke="#5B2A86" stroke-width="3"></rect>
+                    <circle cx="175" cy="40" r="6" fill="#E8508A"></circle>
+                    <path d="M124 84 L148 84" stroke="#C2185B" stroke-width="4" stroke-linecap="round"></path>
+                    <path d="M141 78 L150 84 L141 90" stroke="#C2185B" stroke-width="4" stroke-linecap="round" fill="none"></path>
+                  </svg>
+                </div>
+                <h3 data-i18n="defence.techniques.barrier.title">4. Everyday Barriers &amp; Fast Exit</h3>
+                <p class="defence-goal" data-i18n="defence.techniques.barrier.goal">Goal: Use a bag or everyday object to keep distance while leaving.</p>
+                <ul id="defence-barrier-steps" class="wizard-step-list" style="list-style:none;padding-left:0;"></ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="meta-note-bar">
+            <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+            <span data-i18n="defence.trainingNote">Note: Seek professional, certified self-defence training for safe hands-on practice. General information only.</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-title" data-i18n="brand.name">Shakti Shield</h2>
+          <p class="card__desc" data-i18n="footer.tagline">Prevent, Protect, Empower — Simple safety, rights, and empowerment guidance for India.</p>
+                    <p class="footer-disclaimer" data-i18n="footer.disclaimer">
+            Disclaimer: General information only, not legal advice and not a substitute for emergency services (112).
+          </p>
+          <div class="footer-links">
+            <a href="https://nihaal26bca3079-sketch.github.io/Workshop-/shakti-shield/" target="_blank" rel="noopener noreferrer" data-i18n="footer.liveLink">Permanent Live URL</a>
+            <span aria-hidden="true">&bull;</span>
+            <a href="https://github.com/nihaal26bca3079-sketch/Workshop-/tree/main/shakti-shield" target="_blank" rel="noopener noreferrer" data-i18n="footer.repoLink">GitHub Repo</a>
+            <span aria-hidden="true">&bull;</span>
+            <a href="https://github.com/nihaal26bca3079-sketch" target="_blank" rel="noopener noreferrer">GitHub: @nihaal26bca3079-sketch</a>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="footer-title" data-i18n="footer.limitationsTitle">Important Limitations</h2>
+          <ul class="footer-list">
+            <li data-i18n="footer.limitation1">SOS alerts are alert assistance: you must tap send in WhatsApp or SMS.</li>
+            <li data-i18n="footer.limitation2">Data is stored only in your browser (localStorage).</li>
+            <li data-i18n="footer.limitation3">Quick Exit does not clear earlier browser history.</li>
+            <li data-i18n="footer.limitation4">Laws, helplines, and scholarship details change; verify from official sources.</li>
+            <li data-i18n="footer.limitation5">Translations are machine-assisted drafts pending native-speaker review.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer.copyright">Shakti Shield • Six-language public safety resource • No analytics or tracking</span>
+        <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/fallback-data.js"></script>
+  <script src="../js/language.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

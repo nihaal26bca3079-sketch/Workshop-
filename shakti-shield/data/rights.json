@@ -1,0 +1,65 @@
+{
+  "last_verified": "2026-11-25",
+  "laws": [
+    {
+      "id": "bns_74",
+      "category": "bns",
+      "ref": "BNS Section 74",
+      "verify": false
+    },
+    {
+      "id": "bns_75",
+      "category": "bns",
+      "ref": "BNS Section 75",
+      "verify": false
+    },
+    {
+      "id": "bns_76",
+      "category": "bns",
+      "ref": "BNS Section 76",
+      "verify": false
+    },
+    {
+      "id": "bns_77",
+      "category": "bns",
+      "ref": "BNS Section 77",
+      "verify": false
+    },
+    {
+      "id": "bns_78",
+      "category": "bns",
+      "ref": "BNS Section 78",
+      "verify": true
+    },
+    {
+      "id": "bns_79",
+      "category": "bns",
+      "ref": "BNS Section 79",
+      "verify": false
+    },
+    {
+      "id": "bnss_173",
+      "category": "reporting",
+      "ref": "BNSS Section 173",
+      "verify": false
+    },
+    {
+      "id": "bnss_175_3",
+      "category": "reporting",
+      "ref": "BNSS Section 175(3)",
+      "verify": false
+    },
+    {
+      "id": "posh_2013",
+      "category": "workplace_domestic",
+      "ref": "POSH Act 2013",
+      "verify": true
+    },
+    {
+      "id": "pwdva_2005",
+      "category": "workplace_domestic",
+      "ref": "Protection of Women from Domestic Violence Act 2005",
+      "verify": true
+    }
+  ]
+}

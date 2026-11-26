@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="shakti-base" content="..">
+  <title>Safety Quiz | Shakti Shield</title>
+  <meta name="description" content="Scenario-based safety and legal awareness quiz with score ring, personalised tips, and local progress chart saved only in your browser.">
+  <meta name="theme-color" content="#5B2A86">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="icon" type="image/png" href="../icons/icon-192.png">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('shakti_theme');
+        if (t === 'dark' || (!t && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body data-page-title-key="quiz.meta.title" data-page-desc-key="quiz.meta.description">
+  <a href="#main-content" class="skip-link" data-i18n="skipLink">Skip to main content</a>
+
+  <!-- Privacy Notice Banner -->
+  <div id="privacy-banner" class="privacy-banner" role="region" aria-label="Privacy notice">
+    <div class="container privacy-banner__inner">
+      <p class="privacy-banner__text">
+        <span aria-hidden="true">&#128274;</span>
+        <span data-i18n="privacy.banner">Your data stays on your device. No tracking, no analytics, and no account needed.</span>
+      </p>
+      <button type="button" id="privacy-dismiss" class="privacy-banner__close" data-i18n="privacy.dismiss">Dismiss privacy notice</button>
+    </div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a href="../index.html" class="brand-link">
+          <span class="brand-link__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <path d="M9 12l2 2 4-4"></path>
+            </svg>
+          </span>
+          <span class="brand-link__text" data-i18n="brand.name">Shakti Shield</span>
+        </a>
+
+        <div class="nav-controls">
+          <label for="language-select" class="sr-only" data-i18n="nav.languageLabel">Select language</label>
+          <select id="language-select" class="lang-select" aria-label="Select language" data-i18n-aria="nav.languageLabel">
+            <option value="en" lang="en">English</option>
+            <option value="hi" lang="hi">हिन्दी</option>
+            <option value="bn" lang="bn">বাংলা</option>
+            <option value="ta" lang="ta">தமிழ்</option>
+            <option value="kn" lang="kn">ಕನ್ನಡ</option>
+            <option value="te" lang="te">తెలుగు</option>
+          </select>
+
+          <button type="button" id="theme-toggle" class="icon-btn" aria-pressed="false" aria-label="Switch to dark mode">
+            <span data-theme-icon aria-hidden="true">&#9790;</span>
+            <span data-theme-label data-i18n="nav.darkModeLabel">Dark</span>
+          </button>
+
+          <button type="button" id="quick-exit-btn" class="quick-exit-btn" data-quick-exit aria-label="Quick Exit: leave this site immediately for a neutral page, or press Escape twice" data-i18n-aria="quickExit.ariaLabel">
+            <span aria-hidden="true">&#8599;</span>
+            <span data-i18n="quickExit.label">Quick Exit</span>
+          </button>
+
+          <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu" data-i18n-aria="nav.menuToggle">
+            &#9776;
+          </button>
+        </div>
+
+        <nav id="nav-menu" class="nav-menu" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link" data-i18n="nav.home">Home</a></li>
+            <li><a href="emergency.html" class="nav-link" data-i18n="nav.emergency">Emergency</a></li>
+            <li><a href="toolkit.html" class="nav-link" data-i18n="nav.toolkit">Safety Toolkit</a></li>
+            <li><a href="incident-guide.html" class="nav-link" data-i18n="nav.incidentGuide">Incident Guide</a></li>
+            <li><a href="cyber.html" class="nav-link" data-i18n="nav.cyber">Cyber Safety</a></li>
+            <li><a href="rights.html" class="nav-link" data-i18n="nav.rights">Know Your Rights</a></li>
+            <li><a href="defence.html" class="nav-link" data-i18n="nav.defence">Self-Defence</a></li>
+            <li><a href="quiz.html" class="nav-link" data-i18n="nav.quiz">Safety Quiz</a></li>
+            <li><a href="empowerment.html" class="nav-link" data-i18n="nav.empowerment">Empowerment</a></li>
+            <li><a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Quiz Header & Interactive Question Stage -->
+    <section class="section" aria-labelledby="quiz-title">
+      <div class="container">
+        <div class="section__header">
+          <h1 id="quiz-title" data-i18n="quiz.heroTitle">Safety &amp; Rights Quiz</h1>
+          <p class="section__subtitle" data-i18n="quiz.heroSubtitle">
+            Test your response to real-life safety scenarios. Your score history stays only in your browser.
+          </p>
+        </div>
+
+        <!-- Active Quiz Card -->
+        <article id="quiz-stage" class="tool-card tool-card--primary">
+          <p id="quiz-question-progress" class="checklist-progress" style="margin:0;"></p>
+          <fieldset class="quiz-fieldset">
+            <legend id="quiz-question-text" class="quiz-question-legend"></legend>
+            <div id="quiz-options-list" class="quiz-options"></div>
+          </fieldset>
+
+          <p id="quiz-error" class="form-error" role="status" aria-live="polite"></p>
+
+          <div class="btn-row">
+            <button type="button" id="quiz-prev-btn" class="btn btn-outline" data-i18n="quiz.prevBtn">Previous</button>
+            <button type="button" id="quiz-next-btn" class="btn btn-primary" data-i18n="quiz.nextBtn">Next Question</button>
+            <button type="button" id="quiz-submit-btn" class="btn btn-action" data-i18n="quiz.submitBtn" hidden>See My Score</button>
+          </div>
+        </article>
+
+        <!-- Results View (Score Ring + Personalised Tips + Review) -->
+        <div id="quiz-results" hidden>
+          <article class="tool-card tool-card--primary">
+            <h2 data-i18n="quiz.scoreHeading">Your Result</h2>
+            <div class="quiz-score-layout">
+              <div class="score-ring-wrap">
+                <svg viewBox="0 0 128 128" class="score-ring-svg" aria-hidden="true">
+                  <circle cx="64" cy="64" r="52" class="score-ring-bg"></circle>
+                  <circle id="quiz-ring-progress" cx="64" cy="64" r="52" class="score-ring-progress"></circle>
+                </svg>
+                <div id="quiz-ring-percent" class="score-ring-label">0%</div>
+              </div>
+
+              <div style="flex:1 1 240px;">
+                <p id="quiz-score-summary" style="font-size:1.1rem;font-weight:700;"></p>
+                <h3 data-i18n="quiz.tipsHeading">Personalised Tips</h3>
+                <p id="quiz-tier-tip" class="card__desc"></p>
+                <div id="quiz-tip-links" class="btn-row" style="margin-top:0.75rem;"></div>
+              </div>
+            </div>
+
+            <div class="btn-row">
+              <button type="button" id="quiz-retake-btn" class="btn btn-primary" data-i18n="quiz.retakeBtn">Retake Quiz</button>
+            </div>
+          </article>
+
+          <article class="tool-card" style="margin-top:1.25rem;">
+            <h2 data-i18n="quiz.reviewHeading">Review Your Answers</h2>
+            <div id="quiz-review-list" class="quiz-review-grid"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Progress Chart (SVG + localStorage History) -->
+    <section class="section section--soft" aria-labelledby="quiz-history-heading">
+      <div class="container">
+        <article class="tool-card tool-card--primary">
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:0.75rem;">
+            <div>
+              <h2 id="quiz-history-heading" data-i18n="quiz.historyHeading">Your Progress History (Saved Locally)</h2>
+              <p class="card__desc" data-i18n="quiz.historySubtitle">Scores are stored only in this browser (localStorage).</p>
+            </div>
+            <button type="button" id="quiz-clear-history-btn" class="btn btn-outline btn-sm" data-i18n="quiz.clearHistoryBtn" hidden>Clear History</button>
+          </div>
+
+          <p id="quiz-history-empty" class="card__desc" data-i18n="quiz.historyEmpty">
+            Complete the quiz to see your score progress chart here.
+          </p>
+          <div id="quiz-chart-container"></div>
+        </article>
+
+        <div class="meta-note-bar">
+          <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+          <span data-i18n="common.verifySource">Verify from official sources.</span>
+          <span data-i18n="common.notLegalAdvice">General information only, not legal advice.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-title" data-i18n="brand.name">Shakti Shield</h2>
+          <p class="card__desc" data-i18n="footer.tagline">Prevent, Protect, Empower — Simple safety, rights, and empowerment guidance for India.</p>
+                    <p class="footer-disclaimer" data-i18n="footer.disclaimer">
+            Disclaimer: General information only, not legal advice and not a substitute for emergency services (112).
+          </p>
+          <div class="footer-links">
+            <a href="https://nihaal26bca3079-sketch.github.io/Workshop-/shakti-shield/" target="_blank" rel="noopener noreferrer" data-i18n="footer.liveLink">Permanent Live URL</a>
+            <span aria-hidden="true">&bull;</span>
+            <a href="https://github.com/nihaal26bca3079-sketch/Workshop-/tree/main/shakti-shield" target="_blank" rel="noopener noreferrer" data-i18n="footer.repoLink">GitHub Repo</a>
+            <span aria-hidden="true">&bull;</span>
+            <a href="https://github.com/nihaal26bca3079-sketch" target="_blank" rel="noopener noreferrer">GitHub: @nihaal26bca3079-sketch</a>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="footer-title" data-i18n="footer.limitationsTitle">Important Limitations</h2>
+          <ul class="footer-list">
+            <li data-i18n="footer.limitation1">SOS alerts are alert assistance: you must tap send in WhatsApp or SMS.</li>
+            <li data-i18n="footer.limitation2">Data is stored only in your browser (localStorage).</li>
+            <li data-i18n="footer.limitation3">Quick Exit does not clear earlier browser history.</li>
+            <li data-i18n="footer.limitation4">Laws, helplines, and scholarship details change; verify from official sources.</li>
+            <li data-i18n="footer.limitation5">Translations are machine-assisted drafts pending native-speaker review.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer.copyright">Shakti Shield • Six-language public safety resource • No analytics or tracking</span>
+        <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/fallback-data.js"></script>
+  <script src="../js/language.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>

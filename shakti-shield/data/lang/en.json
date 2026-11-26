@@ -1,0 +1,905 @@
+{
+  "meta": {
+    "title": "Shakti Shield | Women Safety & Empowerment",
+    "description": "Shakti Shield brings women's safety tools, legal awareness, verified helplines, and empowerment resources in six languages for India."
+  },
+  "brand": {
+    "name": "Shakti Shield",
+    "theme": "Prevent, Protect, Empower",
+    "tagline": "Strength that protects. Power that uplifts."
+  },
+  "skipLink": "Skip to main content",
+  "privacy": {
+    "banner": "Your data stays on your device. No tracking, no analytics, and no account needed.",
+    "dismiss": "Dismiss privacy notice"
+  },
+  "quickExit": {
+    "label": "Quick Exit",
+    "ariaLabel": "Quick Exit: leave this site immediately for a neutral page, or press Escape twice",
+    "hint": "Press Escape twice anytime for Quick Exit (does not clear earlier browser history)."
+  },
+  "nav": {
+    "menuToggle": "Toggle navigation menu",
+    "home": "Home",
+    "emergency": "Emergency",
+    "toolkit": "Safety Toolkit",
+    "incidentGuide": "Incident Guide",
+    "cyber": "Cyber Safety",
+    "rights": "Know Your Rights",
+    "defence": "Self-Defence",
+    "quiz": "Safety Quiz",
+    "empowerment": "Empowerment",
+    "contact": "Contact",
+    "languageLabel": "Select language",
+    "themeToDark": "Switch to dark mode",
+    "themeToLight": "Switch to light mode",
+    "darkModeLabel": "Dark",
+    "lightModeLabel": "Light"
+  },
+  "common": {
+    "lastUpdated": "Last updated: November 2026",
+    "lastVerified": "Last verified: 2026-11-25",
+    "verifySource": "Verify from official sources.",
+    "verifyBadge": "verify",
+    "notLegalAdvice": "General information only, not legal advice.",
+    "callPrefix": "Call",
+    "exploreLink": "Open section"
+  },
+  "home": {
+    "heroEyebrow": "Prevent, Protect, Empower",
+    "heroTitle": "Shakti Shield",
+    "heroTagline": "Strength that protects. Power that uplifts.",
+    "heroDescription": "Safety tools, legal awareness, and empowerment resources for students, working women, and families in India, in six languages.",
+    "heroIllustrationAlt": "Protective shield symbol for safety, awareness, and empowerment",
+    "emergencyCta": "Emergency Help & SOS",
+    "emergencyNote": "If you are in immediate danger, call 112 first.",
+    "call112Cta": "Call 112 Now",
+    "quickLinksHeading": "Safety & Empowerment Sections",
+    "quickLinksSubtitle": "Clear steps, practical safety tools, and verified information in plain language.",
+    "cards": {
+      "emergency": {
+        "title": "Emergency & SOS",
+        "desc": "One-tap helpline calls, SOS countdown, Safe Journey Timer, fake call, and trusted contacts."
+      },
+      "toolkit": {
+        "title": "Safety Toolkit",
+        "desc": "Travel, night commute, online, workplace, and home safety checklists."
+      },
+      "incidentGuide": {
+        "title": "Incident Guide",
+        "desc": "Step-by-step reporting guidance, evidence tips, Zero FIR, and helplines."
+      },
+      "cyber": {
+        "title": "Cyber Safety Centre",
+        "desc": "Guidance on sextortion, fake profiles, deepfakes, privacy, and cybercrime.gov.in."
+      },
+      "rights": {
+        "title": "Know Your Rights",
+        "desc": "Searchable guide to women's legal rights under BNS, BNSS, and POSH Act 2013."
+      },
+      "defence": {
+        "title": "Self-Defence",
+        "desc": "Basic escape-first safety techniques with clear steps and guidance."
+      },
+      "quiz": {
+        "title": "Safety Quiz",
+        "desc": "Scenario-based practice quiz with score tracking saved only on your device."
+      },
+      "empowerment": {
+        "title": "Empowerment Corner",
+        "desc": "Verified scholarship information, career tips, and inspiring real stories."
+      },
+      "contact": {
+        "title": "Contact & Feedback",
+        "desc": "Share feedback on clarity, accessibility, or translations locally."
+      }
+    },
+    "helplinesHeading": "Verified Helplines (India)",
+    "helplinesNote": "Availability can vary by state; always verify from official sources.",
+    "helplines": {
+      "h112": "National emergency number",
+      "h1091": "Women helpline",
+      "h181": "Women helpline (24x7)",
+      "h7827170170": "NCW domestic violence helpline",
+      "h1930": "Cyber fraud helpline"
+    },
+    "awarenessHeading": "Know the Facts: Rights & Reporting",
+    "awarenessSubtitle": "Verified legal information for India. General information only, not legal advice.",
+    "awareness": {
+      "fact1Title": "Current Criminal Laws (BNS, BNSS, BSA)",
+      "fact1Body": "BNS replaced the IPC on 1 July 2024; BNSS replaced the CrPC and BSA replaced the Evidence Act. Offences against women and children are grouped in Chapter V of the BNS.",
+      "fact2Title": "Zero FIR & Free Copy",
+      "fact2Body": "Under BNSS Section 173, a Zero FIR can be registered at any police station regardless of where the offence happened, and the FIR copy is free.",
+      "fact3Title": "If Police Refuse an FIR",
+      "fact3Body": "Write to the Superintendent of Police, then approach the Magistrate under BNSS Section 175(3).",
+      "fact4Title": "Workplace & Domestic Protection",
+      "fact4Body": "Workplace sexual harassment is covered under POSH Act 2013 (complaints can also go through the SHe-Box portal; verify). Domestic violence is covered under Protection of Women from Domestic Violence Act 2005 (verify)."
+    },
+    "translationNotice": "Translations are machine-assisted drafts pending native-speaker review. Please verify critical legal and safety details from official sources."
+  },
+  "emergency": {
+    "meta": {
+      "title": "Emergency Help & SOS | Shakti Shield",
+      "description": "One-tap verified helplines, 5-second SOS alert assistance, Safe Journey Timer, fake call simulator, trusted contacts, and nearby help finder."
+    },
+    "heroTitle": "Emergency Help & SOS",
+    "heroSubtitle": "Quick access to verified Indian helplines, alert assistance, and safety tools.",
+    "dangerBanner": "If you are in immediate danger, call 112 first.",
+    "helplinesHeading": "One-Tap Verified Helplines",
+    "helplinesNote": "Availability can vary by state; always verify from official sources.",
+    "sos": {
+      "heading": "Smart SOS Alert Assistance",
+      "subtitle": "5-second countdown before starting siren, visual alert, location link, and shareable message.",
+      "limitationNote": "Alert assistance only: you must pick one contact and tap send in WhatsApp or SMS.",
+      "startBtn": "Start SOS (5s Countdown)",
+      "cancelBtn": "Cancel Countdown",
+      "stopBtn": "Stop Siren & Alert",
+      "countdownLabel": "SOS activating in {sec}s...",
+      "readyStatus": "Ready when needed.",
+      "activeStatus": "SOS alert active. Pick a contact below to send your message.",
+      "cancelledStatus": "SOS countdown cancelled.",
+      "stoppedStatus": "SOS siren and visual alert stopped.",
+      "locLoading": "Checking browser location (never stored)...",
+      "locSuccess": "Location ready (not stored on device or server).",
+      "locDenied": "Location permission was denied. Your SOS message still works without a map link.",
+      "locUnavailable": "Location is unavailable on this device/browser. Share your SOS message and describe your location.",
+      "messageLabel": "Prepared SOS Message (Selected Language)",
+      "messageWithLoc": "SOS! I need urgent help. My location:",
+      "messageNoLoc": "SOS! I need urgent help. Location unavailable—please call me or 112.",
+      "pickContactLabel": "Pick one trusted contact to notify",
+      "noContactsOption": "No saved contacts yet — add one below or use Web Share",
+      "selectContactPrompt": "Please add or select a trusted contact first.",
+      "sendWhatsapp": "Send via WhatsApp",
+      "sendSms": "Send via SMS",
+      "webShare": "Share via Device (Web Share)",
+      "webShareUnsupported": "Web Share is not supported in this browser; use WhatsApp or SMS."
+    },
+    "journey": {
+      "heading": "Safe Journey Timer",
+      "subtitle": "Set a travel countdown and tap Reached Safely when you arrive.",
+      "openPageNote": "Note: The Safe Journey Timer only works while this page stays open.",
+      "durationLabel": "Select journey duration",
+      "preset10s": "10 sec (Demo Mode)",
+      "preset15m": "15 min",
+      "preset30m": "30 min",
+      "preset60m": "60 min",
+      "startBtn": "Start Journey Timer",
+      "reachedBtn": "Reached Safely",
+      "statusIdle": "Timer not running.",
+      "statusRunning": "Time remaining: {time}. Stay on this page until arrival.",
+      "statusSafe": "Marked as reached safely. Take care!",
+      "statusOverdue": "Journey timer ended! If you need help, call 112 or send an SOS alert now.",
+      "overdueCallBtn": "Call 112",
+      "overdueSosBtn": "Prepare SOS Message"
+    },
+    "fakeCall": {
+      "heading": "Fake Call Simulator",
+      "subtitle": "Simulate an incoming phone call to help step away from an uncomfortable situation.",
+      "callerLabel": "Caller label",
+      "defaultCaller": "Maa (Home)",
+      "delayLabel": "Ring after",
+      "delayNow": "Immediately",
+      "delay5s": "5 seconds",
+      "delay15s": "15 seconds",
+      "delay30s": "30 seconds",
+      "startBtn": "Schedule Fake Call",
+      "cancelBtn": "Cancel",
+      "scheduledStatus": "Fake call will ring in {sec}s...",
+      "incomingLabel": "Incoming call...",
+      "activeLabel": "Call connected",
+      "answerBtn": "Answer",
+      "declineBtn": "Decline / End",
+      "audioNote": "Ringtone is generated locally using Web Audio API after you click."
+    },
+    "contacts": {
+      "heading": "Trusted Contacts (+91)",
+      "subtitle": "Saved only in your browser (localStorage). Pick one contact at a time when sending SOS.",
+      "nameLabel": "Contact name",
+      "namePlaceholder": "e.g. Didi, Maa, Friend",
+      "phoneLabel": "Phone number (India +91)",
+      "phonePlaceholder": "10-digit number, e.g. 9876543210",
+      "addBtn": "Save Contact",
+      "empty": "No trusted contacts saved yet.",
+      "removeBtn": "Remove",
+      "useForSos": "Select",
+      "errName": "Please enter a contact name (at least 2 characters).",
+      "errPhone": "Enter a valid 10-digit Indian number (with or without +91).",
+      "errDuplicate": "This number is already in your trusted contacts.",
+      "savedMsg": "Trusted contact saved on this device."
+    },
+    "nearby": {
+      "heading": "Nearby Help Finder",
+      "subtitle": "Opens Google Maps searches in a new tab to locate support near you.",
+      "policeBtn": "Find Police Stations",
+      "hospitalBtn": "Find Hospitals",
+      "womenHelpBtn": "Find Women's Help Centres",
+      "note": "Map results depend on Google Maps and your device location settings."
+    }
+  },
+  "toolkit": {
+    "meta": {
+      "title": "Safety Toolkit | Shakti Shield",
+      "description": "Practical Do's and Don'ts for travel, night commute, online safety, workplace, and home, plus a personalised safety checklist generator."
+    },
+    "heroTitle": "Safety Toolkit",
+    "heroSubtitle": "Practical Do's and Don'ts by situation, plus a personalised checklist you can use right away.",
+    "tabsLabel": "Safety categories",
+    "tabs": {
+      "travel": "Travel",
+      "night": "Night Commute",
+      "online": "Online Safety",
+      "workplace": "Workplace",
+      "home": "Home"
+    },
+    "dosTitle": "Do's",
+    "dontsTitle": "Don'ts",
+    "tabContent": {
+      "travel": {
+        "dos": [
+          "Share your live trip details or vehicle number with a trusted contact before starting.",
+          "Check that cab or auto registration numbers match the booking app before boarding.",
+          "Keep your phone charged above 50% and carry a small power bank when possible.",
+          "Sit near other families, women passengers, or the exit in buses and trains."
+        ],
+        "donts": [
+          "Do not share your home address or travel routine with strangers.",
+          "Do not accept open drinks or food from unknown co-passengers.",
+          "Do not board unverified or unmarked vehicles in isolated areas.",
+          "Do not wear both earphones at high volume; stay aware of your surroundings."
+        ]
+      },
+      "night": {
+        "dos": [
+          "Prefer well-lit main roads and busy stops even if the route takes a few extra minutes.",
+          "Keep 112 and a trusted family member on speed dial before stepping out.",
+          "Hold your phone and bag securely so your hands stay free to move quickly.",
+          "Ask a trusted friend or family member to stay on call during the last stretch home."
+        ],
+        "donts": [
+          "Do not take unlit shortcuts through alleys, parks, or empty parking lots.",
+          "Do not wait outside alone if a cab is delayed; wait inside a lit shop or lobby.",
+          "Do not share live location publicly on social media while commuting at night.",
+          "Do not hesitate to enter a bright store, metro station, or police booth if someone follows you."
+        ]
+      },
+      "online": {
+        "dos": [
+          "Use strong, unique passwords and turn on two-factor authentication (2FA) on all accounts.",
+          "Set social media profiles and contact lists to private and review tagged photos.",
+          "Take screenshots with visible URLs, dates, and usernames if someone harasses you.",
+          "Report cyber harassment or financial fraud on cybercrime.gov.in or helpline 1930 (verify)."
+        ],
+        "donts": [
+          "Do not share OTPs, bank PINs, private photos, or identity documents with unknown contacts.",
+          "Do not click shortened or suspicious links promising prizes, jobs, or urgent account checks.",
+          "Do not delete abusive messages before saving screenshots or evidence.",
+          "Do not pay blackmail or sextortion demands; block, save evidence, and report immediately."
+        ]
+      },
+      "workplace": {
+        "dos": [
+          "Learn your organisation's Internal Committee (IC) process under the POSH Act 2013 (verify).",
+          "Save dates, times, messages, and witness names if uncomfortable behaviour happens.",
+          "Set clear communication boundaries for work hours and official channels.",
+          "Check whether complaints can also be submitted via the SHe-Box portal (verify)."
+        ],
+        "donts": [
+          "Do not ignore repeated inappropriate remarks or unwanted physical contact.",
+          "Do not meet alone in isolated rooms after hours if you feel uncomfortable.",
+          "Do not feel pressured to delete work chats or emails that show harassment.",
+          "Do not blame yourself; workplace safety is a legal duty of the employer."
+        ]
+      },
+      "home": {
+        "dos": [
+          "Keep doors, window latches, and peepholes in good working order.",
+          "Verify delivery or repair visitors through an intercom, window, or booking app before opening.",
+          "Keep emergency numbers (112, 181, 1091) and key documents easy to reach.",
+          "Agree on a simple code word with trusted neighbours or family for quiet help."
+        ],
+        "donts": [
+          "Do not open the main door to unverified callers claiming urgent utility checks.",
+          "Do not leave spare keys in obvious places like under mats or flower pots.",
+          "Do not post photos showing you are alone at home or away on holiday in real time.",
+          "Do not ignore threats or abuse inside the home; reach out to 181 or 7827170170 (verify)."
+        ]
+      }
+    },
+    "generator": {
+      "heading": "Personalised Safety Checklist",
+      "subtitle": "Pick your routine below to build a custom checklist. Nothing is uploaded or tracked.",
+      "selectHint": "Choose one or more situations:",
+      "options": {
+        "student": "Student / Campus or Hostel",
+        "working": "Working Woman / Office",
+        "nightCommute": "Evening or Night Commute",
+        "soloTravel": "Solo or Outstation Travel",
+        "livingAlone": "Living Alone / PG"
+      },
+      "generateBtn": "Build My Checklist",
+      "resetBtn": "Clear Checks",
+      "printBtn": "Print Checklist",
+      "emptyPrompt": "Select at least one situation above to generate your personalised checklist.",
+      "progressLabel": "{done} of {total} completed",
+      "items": {
+        "core": [
+          "Save emergency number 112 and women helpline 181 in phone favourites.",
+          "Keep one trusted contact informed about your daily return time."
+        ],
+        "student": [
+          "Save campus security, hostel warden, and local police station numbers.",
+          "Walk in pairs or groups when leaving evening classes or libraries.",
+          "Keep social media profiles private and avoid sharing live hostel check-ins."
+        ],
+        "working": [
+          "Note your workplace Internal Committee (IC) contact under POSH Act 2013 (verify).",
+          "Use official company transport or share cab details when working late.",
+          "Keep personal phone numbers separate from public work directories where possible."
+        ],
+        "nightCommute": [
+          "Charge your phone and carry a power bank before leaving work or college.",
+          "Check the vehicle number plate and driver details before getting in.",
+          "Stay on well-lit main roads and keep a trusted contact on call if uneasy."
+        ],
+        "soloTravel": [
+          "Keep digital and paper copies of ID, ticket, and hotel address safely.",
+          "Verify hotel room locks and avoid announcing your room number aloud.",
+          "Share your daily itinerary and check-in times with family."
+        ],
+        "livingAlone": [
+          "Use a peephole or door chain before opening to any delivery or visitor.",
+          "Keep a whistle or torch near your bedside and know your nearest exit.",
+          "Build a trusted contact check-in routine with a neighbour or relative."
+        ]
+      }
+    }
+  },
+  "incidentGuide": {
+    "meta": {
+      "title": "Incident Guide | Shakti Shield",
+      "description": "Calm, step-by-step guidance for stalking, online harassment, workplace issues, and domestic violence, including evidence tips, Zero FIR, and verified helplines."
+    },
+    "heroTitle": "Incident Guide",
+    "heroSubtitle": "Calm, practical steps on what to do, what evidence to save, and where to report.",
+    "safetyNoteTitle": "Safety Note on Browsing History",
+    "safetyNoteBody": "Pages you visit may remain visible in your browser history on shared devices. Use private or incognito browsing when needed, and use Quick Exit (or press Escape twice) anytime.",
+    "wizardHeading": "Choose What Happened (Step-by-Step Guide)",
+    "wizardSubtitle": "Select a situation below to see tailored steps, evidence to keep, reporting options, and verified helplines.",
+    "scenariosLabel": "Incident categories",
+    "scenarios": {
+      "stalking": "Stalking",
+      "online": "Online Harassment",
+      "workplace": "Workplace Harassment",
+      "domestic": "Domestic Violence"
+    },
+    "sectionTitles": {
+      "steps": "1. Immediate Steps to Take",
+      "evidence": "2. Evidence to Save",
+      "report": "3. Where & How to Report",
+      "helplines": "4. Relevant Verified Helplines"
+    },
+    "details": {
+      "stalking": {
+        "lawRef": "Relevant law: BNS Section 78 (verify from official sources).",
+        "steps": [
+          "Move immediately to a bright, populated public place, store, or security desk.",
+          "Call 112 or alert a trusted family member or friend with your location.",
+          "Vary your daily commute route and timings if someone follows you repeatedly."
+        ],
+        "evidence": [
+          "Write down dates, times, places, and any vehicle number or physical description.",
+          "Save threatening texts, missed call logs, voicemails, or social media messages.",
+          "Note names of witnesses or nearby shops with CCTV cameras so footage can be requested quickly."
+        ],
+        "report": [
+          "Call 112 in immediate danger or 1091 / 181 for women's support (verify state availability).",
+          "File a complaint or Zero FIR at any police station under BNSS Section 173 (relevant law: BNS Section 78; verify)."
+        ],
+        "helplineIds": ["h112", "h181", "h1091"]
+      },
+      "online": {
+        "lawRef": "Reporting portal: cybercrime.gov.in and helpline 1930 (verify).",
+        "steps": [
+          "Do not reply to threats or pay blackmail demands; block or mute the sender after saving proof.",
+          "Change passwords and turn on two-factor authentication (2FA) on email and social accounts.",
+          "Tell a trusted person or counsellor so you do not have to handle it alone."
+        ],
+        "evidence": [
+          "Take full screenshots showing profile URLs, usernames, dates, and exact messages.",
+          "Save transaction IDs, UPI details, or bank statements if financial fraud occurred.",
+          "Keep original files or emails without cropping or editing metadata."
+        ],
+        "report": [
+          "Report online at cybercrime.gov.in or call cyber fraud helpline 1930 (verify).",
+          "You can also file an FIR or e-FIR / Zero FIR at a police station under BNSS Section 173."
+        ],
+        "helplineIds": ["h1930", "h112", "h181"]
+      },
+      "workplace": {
+        "lawRef": "Relevant law: POSH Act 2013 (complaints can also go through the SHe-Box portal; verify).",
+        "steps": [
+          "Prioritise your safety: step away from isolated spaces and inform a trusted colleague or friend.",
+          "Check your workplace policy for the Internal Committee (IC) contact details.",
+          "Write down a clear timeline of what happened while details are fresh."
+        ],
+        "evidence": [
+          "Save work emails, chat messages, meeting invites, and call logs safely on a personal device.",
+          "Record dates, times, locations, exact words used, and names of any witnesses.",
+          "Keep copies of any formal complaints and acknowledgement receipts."
+        ],
+        "report": [
+          "Submit a written complaint to your organisation's Internal Committee (IC) under POSH Act 2013 (verify).",
+          "Complaints can also go through the SHe-Box portal (verify), or to police via BNSS Section 173 if a criminal offence occurred."
+        ],
+        "helplineIds": ["h181", "h1091", "h112"]
+      },
+      "domestic": {
+        "lawRef": "Relevant law: Protection of Women from Domestic Violence Act 2005 (verify).",
+        "steps": [
+          "If you are in immediate physical danger, leave to a safe room or neighbour's home and call 112.",
+          "Keep emergency cash, ID proofs, phone charger, and key medical papers accessible if safe.",
+          "Reach out to a trusted family member, friend, or women helpline 181 / 7827170170 (verify)."
+        ],
+        "evidence": [
+          "Save photos of injuries or damaged property with dates, and keep hospital or doctor records.",
+          "Keep abusive messages, threat recordings, or financial control records safely.",
+          "Note dates of incidents and names of neighbours, relatives, or doctors who witnessed harm."
+        ],
+        "report": [
+          "Call 112 for urgent police help, 181 (24x7 women helpline), or NCW domestic violence helpline 7827170170 (verify).",
+          "Seek help under the Protection of Women from Domestic Violence Act 2005 (verify) or file an FIR under BNSS Section 173."
+        ],
+        "helplineIds": ["h112", "h181", "h7827170170"]
+      }
+    },
+    "fir": {
+      "heading": "Understanding Zero FIR, Free Copy & Police Refusal",
+      "subtitle": "Your basic rights when reporting a crime under BNSS (verify from official sources).",
+      "zeroFirTitle": "Zero FIR & e-FIR (BNSS Section 173)",
+      "zeroFirBody": "A Zero FIR can be registered at any police station regardless of where the offence happened, and the police must give you a copy of the FIR free of cost.",
+      "refusalTitle": "If Police Refuse to Register an FIR",
+      "refusalStep1": "1. Write directly to the Superintendent of Police explaining the incident and the refusal.",
+      "refusalStep2": "2. If action is still not taken, approach the Magistrate under BNSS Section 175(3)."
+    }
+  },
+  "cyber": {
+    "meta": {
+      "title": "Cyber Safety Centre | Shakti Shield",
+      "description": "Supportive guidance on sextortion, fake profiles, deepfakes, privacy settings, and reporting via cybercrime.gov.in and helpline 1930 (verify)."
+    },
+    "heroTitle": "Cyber Safety Centre",
+    "heroSubtitle": "Clear steps for online threats, privacy protection, and official reporting.",
+    "supportBanner": "If someone threatens, impersonates, or blackmails you online, it is not your fault. Save evidence and seek help right away.",
+    "threatsHeading": "Common Online Threats & What to Do",
+    "threatsSubtitle": "Calm, practical actions you can take immediately.",
+    "threats": {
+      "sextortion": {
+        "title": "Sextortion & Blackmail",
+        "summary": "Someone threatens to share private photos, videos, or messages unless you pay or comply.",
+        "steps": [
+          "Do not pay money or send more images; paying rarely stops demands.",
+          "Take clear screenshots of messages, profiles, URLs, and payment requests before blocking.",
+          "Report immediately on cybercrime.gov.in or call 1930 for financial demands (verify), and tell a trusted person."
+        ]
+      },
+      "fakeProfiles": {
+        "title": "Fake Profiles & Impersonation",
+        "summary": "Someone creates an account using your name, photos, or phone number without permission.",
+        "steps": [
+          "Capture the full profile URL, handle, and screenshots of misused photos or posts.",
+          "Use the platform's 'Report Impersonation' tool and ask trusted friends to report the account too.",
+          "Inform close contacts not to respond to the fake account and report on cybercrime.gov.in (verify)."
+        ]
+      },
+      "deepfakes": {
+        "title": "Deepfakes & Edited Media",
+        "summary": "Someone alters your photos, voice, or video using editing or AI tools without consent.",
+        "steps": [
+          "Save the link, platform name, account details, and screenshots showing where the media appears.",
+          "Request urgent takedown through the platform's non-consensual imagery or harassment form.",
+          "File a complaint on cybercrime.gov.in (verify) or at a police station via BNSS Section 173."
+        ]
+      }
+    },
+    "privacy": {
+      "heading": "Privacy Settings Checkup",
+      "subtitle": "Tick each setting as you review your phone and social accounts (stays only on this page).",
+      "progressLabel": "{done} of {total} reviewed",
+      "items": [
+        "Turn on two-factor authentication (2FA) using an authenticator app or secure code on email and social accounts.",
+        "Set social profiles to Private, limit who can message or tag you, and hide your phone number and friend list.",
+        "Turn off automatic location tagging in your camera and social media posts.",
+        "Review app permissions (camera, microphone, contacts, location) and remove access for unused apps.",
+        "Use unique, strong passwords for banking, email, and social media accounts."
+      ]
+    },
+    "reporting": {
+      "heading": "How & Where to Report Cyber Incidents",
+      "subtitle": "Use official portals and helplines; always verify current state procedures from official sources.",
+      "portalTitle": "National Cyber Crime Reporting Portal",
+      "portalBody": "Report online harassment, sextortion, fake profiles, and deepfake abuse at cybercrime.gov.in (verify from official sources).",
+      "portalBtn": "Open cybercrime.gov.in",
+      "helplineTitle": "Cyber Fraud Helpline: 1930",
+      "helplineBody": "If money is involved or at risk, call 1930 as soon as possible (availability can vary by state; verify from official sources). In immediate physical danger, call 112.",
+      "call1930Btn": "Call 1930",
+      "stepsTitle": "4 Steps for Strong Reporting",
+      "steps": [
+        "1. Save uncropped screenshots showing full URLs, usernames, dates, and times.",
+        "2. Note bank transaction IDs or UPI references if any payment or fraud occurred.",
+        "3. Submit your report on cybercrime.gov.in or call 1930 (verify) and save the complaint acknowledgement number.",
+        "4. You may also approach any police station to file an FIR / Zero FIR under BNSS Section 173."
+      ]
+    }
+  },
+  "rights": {
+    "meta": {
+      "title": "Know Your Rights | Shakti Shield",
+      "description": "Searchable and filterable guide to women's legal rights in India under BNS, BNSS, POSH Act 2013, and Domestic Violence Act 2005."
+    },
+    "heroTitle": "Know Your Rights",
+    "heroSubtitle": "Plain-language guide to key laws protecting women in India. General information only, not legal advice.",
+    "notesHeading": "Key Facts About Current Laws",
+    "lawNotes": [
+      "BNS replaced the IPC on 1 July 2024; BNSS replaced the CrPC and BSA replaced the Evidence Act.",
+      "Offences against women and children are grouped in Chapter V of the BNS.",
+      "A Zero FIR can be registered at any police station regardless of where the offence happened, and the FIR copy is free.",
+      "This is general information, not legal advice. Always verify from official sources."
+    ],
+    "searchLabel": "Search rights or section",
+    "searchPlaceholder": "Search in your language or English (e.g. FIR, 78, workplace)...",
+    "filterLabel": "Filter by category",
+    "filters": {
+      "all": "All Laws",
+      "bns": "BNS Chapter V",
+      "reporting": "FIR & Escalation (BNSS)",
+      "workplace_domestic": "Workplace & Domestic"
+    },
+    "countLabel": "Showing {count} of {total} entries",
+    "noResults": "No matching legal entries found. Try another keyword or select All Laws.",
+    "entryVerifyNote": "Last verified: 2026-11-25 • Verify from official sources.",
+    "items": {
+      "bns_74": {
+        "title": "Outraging modesty of a woman",
+        "summary": "Covers assault or use of criminal force against a woman intending to outrage or knowing it is likely to outrage her modesty."
+      },
+      "bns_75": {
+        "title": "Sexual harassment",
+        "summary": "Covers unwelcome physical contact, demands or requests for sexual favours, showing pornography against will, or making sexually coloured remarks."
+      },
+      "bns_76": {
+        "title": "Assault with intent to disrobe",
+        "summary": "Covers assault or use of criminal force on any woman with the intention of disrobing her or compelling her to be naked."
+      },
+      "bns_77": {
+        "title": "Voyeurism",
+        "summary": "Covers watching or capturing images of a woman in a private act without her consent, or sharing such images without consent."
+      },
+      "bns_78": {
+        "title": "Stalking",
+        "summary": "Covers following or repeatedly contacting a woman despite a clear indication of disinterest, or monitoring her online/electronic activity (verify exact provisions)."
+      },
+      "bns_79": {
+        "title": "Insulting the modesty of a woman",
+        "summary": "Covers words, sounds, gestures, or exhibiting objects intended to insult the modesty of a woman or intrude upon her privacy."
+      },
+      "bnss_173": {
+        "title": "Filing an FIR, including Zero FIR and e-FIR",
+        "summary": "Allows registering a Zero FIR at any police station regardless of where the offence happened, supports e-FIR where notified, and guarantees a free FIR copy to the informant."
+      },
+      "bnss_175_3": {
+        "title": "If police refuse to register an FIR",
+        "summary": "Write to the Superintendent of Police first; if no action is taken, you can approach the Magistrate under BNSS Section 175(3)."
+      },
+      "posh_2013": {
+        "title": "Workplace sexual harassment (POSH Act 2013)",
+        "summary": "Provides a formal mechanism through an organisation's Internal Committee (IC) or Local Committee; complaints can also go through the SHe-Box portal (verify)."
+      },
+      "pwdva_2005": {
+        "title": "Domestic violence (Protection of Women from Domestic Violence Act 2005)",
+        "summary": "Provides civil protection, residence, and relief against physical, emotional, verbal, sexual, or economic abuse in a domestic relationship (verify)."
+      }
+    },
+    "firGuide": {
+      "heading": "How to File a Complaint or FIR",
+      "subtitle": "Practical steps for Zero FIR, e-FIR, and escalating a refusal (verify from official sources).",
+      "steps": [
+        {
+          "title": "1. Zero FIR at Any Police Station (BNSS Section 173)",
+          "body": "You do not have to visit the station where the incident happened. Ask the officer to record a Zero FIR and request your free copy."
+        },
+        {
+          "title": "2. e-FIR & Online Cyber Reporting",
+          "body": "Where enabled by your state police, an e-FIR can be submitted online (verify local rules). For cyber incidents, also report on cybercrime.gov.in or call 1930 (verify)."
+        },
+        {
+          "title": "3. Escalation If Police Refuse",
+          "body": "Send a written summary of your complaint by post or in person to the Superintendent of Police. If still unregistered, apply to the Magistrate under BNSS Section 175(3)."
+        }
+      ]
+    }
+  },
+  "defence": {
+    "meta": {
+      "title": "Self-Defence | Shakti Shield",
+      "description": "Basic escape-first self-defence steps with simple illustrations. Always prioritise escaping and calling for help over confrontation."
+    },
+    "heroTitle": "Self-Defence Basics",
+    "heroSubtitle": "Simple awareness and escape-first steps to create space and reach safety.",
+    "priorityBannerTitle": "Core Rule: Escape and Call for Help First",
+    "priorityBannerBody": "Always prioritise getting away, making loud noise to draw attention, and calling 112 over physical confrontation. Use physical moves only to break free and run to safety.",
+    "trainingNote": "Note: Seek professional, certified self-defence training for safe hands-on practice. General information only.",
+    "techniquesHeading": "Step-by-Step Basic Escape Techniques",
+    "techniquesSubtitle": "Calm, practical steps focusing on balance, weak grip points, and moving away fast.",
+    "techniques": {
+      "stance": {
+        "title": "1. Safe Stance & Voice Boundary",
+        "svgAlt": "Illustration showing a balanced open stance with both hands raised calmly in front",
+        "goal": "Goal: Keep balance, protect your space, and attract nearby witnesses.",
+        "steps": [
+          "1. Step one foot slightly back with knees relaxed so you stay balanced.",
+          "2. Raise both open palms to chest height in front of you to keep distance.",
+          "3. Speak loudly and firmly ('Stay back! Help!') while looking for the nearest lit shop, crowd, or exit."
+        ]
+      },
+      "wrist": {
+        "title": "2. Wrist Grab Release (Thumb Gap)",
+        "svgAlt": "Illustration showing rotating a grabbed wrist toward the attacker's thumb gap to break free",
+        "goal": "Goal: Break a single-hand wrist grip by moving toward the thumb.",
+        "steps": [
+          "1. Stay calm and step slightly closer for leverage instead of pulling straight backward.",
+          "2. Rotate your grabbed arm toward the gap between the attacker's thumb and fingers (the weakest part of the grip).",
+          "3. Pull sharply back toward your own shoulder, then turn immediately and run toward people or call 112."
+        ]
+      },
+      "palm": {
+        "title": "3. Open Palm Push to Create Space",
+        "svgAlt": "Illustration showing an open palm forward push to create space for escape",
+        "goal": "Goal: Push away from a close front approach so you can escape.",
+        "steps": [
+          "1. Keep fingers slightly curled back so the hard heel of your palm leads forward.",
+          "2. Push forcefully straight forward at shoulder or chin height using your body weight.",
+          "3. Do not stay to fight—immediately step back, shout for help, and move to a safe public place."
+        ]
+      },
+      "barrier": {
+        "title": "4. Everyday Barriers & Fast Exit",
+        "svgAlt": "Illustration showing holding a bag as a barrier while moving toward an illuminated exit",
+        "goal": "Goal: Use a bag or everyday object to keep distance while leaving.",
+        "steps": [
+          "1. Hold a backpack, handbag, or umbrella between yourself and someone approaching too closely.",
+          "2. Drop heavy items if they slow you down while running to safety.",
+          "3. Move straight into a busy store, transit station, or lit area and call 112 or 181."
+        ]
+      }
+    }
+  },
+  "quiz": {
+    "meta": {
+      "title": "Safety Quiz | Shakti Shield",
+      "description": "Scenario-based safety and legal awareness quiz with score ring, personalised tips, and local progress chart saved only in your browser."
+    },
+    "heroTitle": "Safety & Rights Quiz",
+    "heroSubtitle": "Test your response to real-life safety scenarios. Your score history stays only in your browser.",
+    "questionProgress": "Question {current} of {total}",
+    "prevBtn": "Previous",
+    "nextBtn": "Next Question",
+    "submitBtn": "See My Score",
+    "retakeBtn": "Retake Quiz",
+    "selectOptionPrompt": "Please choose an answer before continuing.",
+    "feedbackCorrect": "Correct!",
+    "feedbackReview": "Review tip:",
+    "scoreHeading": "Your Result",
+    "scoreSummary": "You answered {score} out of {total} scenarios correctly ({percent}%).",
+    "tipsHeading": "Personalised Tips",
+    "tipsTier": {
+      "high": "Strong awareness! Keep practising safety habits and share these helplines (112, 181) with family and friends.",
+      "medium": "Good foundation! Review the highlighted sections below to strengthen your legal and cyber safety knowledge.",
+      "low": "Thank you for practising! Explore the recommended guides below—knowing even one right or helpline can make a big difference."
+    },
+    "reviewHeading": "Review Your Answers",
+    "historyHeading": "Your Progress History (Saved Locally)",
+    "historySubtitle": "Scores are stored only in this browser (localStorage).",
+    "historyEmpty": "Complete the quiz to see your score progress chart here.",
+    "clearHistoryBtn": "Clear History",
+    "chartAlt": "SVG progress chart showing your quiz percentage scores across attempts",
+    "attemptLabel": "Try",
+    "questions": [
+      {
+        "q": "You are walking alone at night and notice someone following you persistently. What is the safest first step?",
+        "options": [
+          "Confront them alone in a quiet side street.",
+          "Move immediately into a bright shop or busy area and call 112 or a trusted contact.",
+          "Put on both earphones and walk faster without looking around."
+        ],
+        "explanation": "Always prioritise moving toward light, people, and safety, and calling 112 over confrontation.",
+        "topicLinkText": "Open Emergency & SOS",
+        "topicHref": "emergency.html"
+      },
+      {
+        "q": "An incident happened in another city while you were travelling. Can you file an FIR at your local police station?",
+        "options": [
+          "Yes. Under BNSS Section 173, a Zero FIR can be registered at any police station, and the FIR copy is free.",
+          "No. Police can only register an FIR in the city where the incident occurred.",
+          "Yes, but only after paying a fee for the FIR copy."
+        ],
+        "explanation": "BNSS Section 173 allows Zero FIR registration at any police station regardless of jurisdiction, and the FIR copy is free.",
+        "topicLinkText": "Open Know Your Rights",
+        "topicHref": "rights.html"
+      },
+      {
+        "q": "An unknown online account threatens to share edited photos of you unless you send money. What should you do?",
+        "options": [
+          "Pay once quickly so they delete the photos.",
+          "Delete the chat immediately without saving anything.",
+          "Do not pay; save full screenshots with URLs, block the account, and report on cybercrime.gov.in or call 1930 (verify)."
+        ],
+        "explanation": "Never pay blackmail demands. Save uncropped evidence with URLs and report via cybercrime.gov.in or 1930 (verify).",
+        "topicLinkText": "Open Cyber Safety Centre",
+        "topicHref": "cyber.html"
+      },
+      {
+        "q": "What can you do if a police station refuses to register your FIR?",
+        "options": [
+          "Stop trying because there is no other option.",
+          "Write to the Superintendent of Police, then approach the Magistrate under BNSS Section 175(3).",
+          "Wait without keeping any written record of the refusal."
+        ],
+        "explanation": "If police refuse to register an FIR, write to the Superintendent of Police and then approach the Magistrate under BNSS Section 175(3).",
+        "topicLinkText": "Open Incident Guide",
+        "topicHref": "incident-guide.html"
+      },
+      {
+        "q": "You experience repeated unwelcome remarks at your workplace. Where can you seek formal redressal?",
+        "options": [
+          "Through your workplace Internal Committee (IC) under the POSH Act 2013 or via the SHe-Box portal (verify).",
+          "Only by posting anonymously on social media.",
+          "Nowhere, if the remarks happened on a work chat."
+        ],
+        "explanation": "Workplace sexual harassment is covered under the POSH Act 2013, and complaints can also go through the SHe-Box portal (verify).",
+        "topicLinkText": "Open Know Your Rights",
+        "topicHref": "rights.html"
+      },
+      {
+        "q": "Before getting into a booked cab or auto at night, what should you check first?",
+        "options": [
+          "Get in quickly without checking the number plate.",
+          "Ask the driver to switch off route navigation.",
+          "Match the vehicle registration number with the booking app and share trip details with a trusted contact."
+        ],
+        "explanation": "Verifying the vehicle number plate and sharing trip details with a trusted contact helps keep night travel safer.",
+        "topicLinkText": "Open Safety Toolkit",
+        "topicHref": "toolkit.html"
+      }
+    ]
+  },
+  "empowerment": {
+    "meta": {
+      "title": "Empowerment Corner | Shakti Shield",
+      "description": "Verified scholarship information on National Scholarship Portal (scholarships.gov.in), factual success stories, and practical career tips."
+    },
+    "heroTitle": "Empowerment Corner",
+    "heroSubtitle": "Verified education support, inspiring journeys, and practical career steps.",
+    "scholarshipsHeading": "Scholarships (India)",
+    "scholarshipsSubtitle": "Verify deadlines, eligibility, and current cycle status directly on the official portal.",
+    "searchLabel": "Search scholarships",
+    "searchPlaceholder": "Search in your language or English (e.g. Pragati, Saraswati, BBA)...",
+    "filterLabel": "Filter scholarships by status",
+    "filters": {
+      "all": "All",
+      "open": "Open",
+      "closed": "Closed"
+    },
+    "badges": {
+      "open": "Open",
+      "closed": "Closed",
+      "verify": "Verify"
+    },
+    "labels": {
+      "amount": "Amount:",
+      "apply": "Where to apply:",
+      "status": "Status:",
+      "visitPortal": "Visit scholarships.gov.in",
+      "noResults": "No scholarships match this filter or search."
+    },
+    "verifyFooterNote": "Verify deadlines on the official portal (scholarships.gov.in).",
+    "scholarships": {
+      "aicte_pragati": {
+        "name": "AICTE Pragati Scholarship (girls, technical degree or diploma)",
+        "amount": "Rs 50,000 per year",
+        "apply": "National Scholarship Portal (scholarships.gov.in)",
+        "statusNote": "Closed for 2026-27 (deadline was 31 Oct 2026); check the portal for extensions and the next cycle."
+      },
+      "aicte_saraswati": {
+        "name": "AICTE Saraswati Scholarship (girls in BBA, BCA, BMS)",
+        "amount": "Verify on the portal (announced in 2024 as Rs 25,000 per year for three years)",
+        "apply": "National Scholarship Portal (scholarships.gov.in)",
+        "statusNote": "Open for 2026-27 per reports; verify the deadline and eligibility on the portal."
+      }
+    },
+    "storiesHeading": "Inspiring Journeys",
+    "storiesSubtitle": "Short factual summaries of publicly documented Indian women across science, sport, and technology.",
+    "stories": [
+      {
+        "name": "Kalpana Chawla",
+        "field": "Aerospace Engineer & Astronaut",
+        "summary": "Born in Karnal, Haryana, Kalpana Chawla earned a degree in aeronautical engineering in India before moving to the United States, where she became the first woman of Indian origin to fly in space aboard Space Shuttle Columbia (1997 and 2003)."
+      },
+      {
+        "name": "M. C. Mary Kom",
+        "field": "Olympic Medallist & Boxer",
+        "summary": "Hailing from Kangathei in Manipur, Mary Kom balanced early training and family responsibilities to win an Olympic bronze medal at London 2012 and become a six-time World Amateur Boxing Champion."
+      },
+      {
+        "name": "Sudha Murty",
+        "field": "Engineer, Author & Philanthropist",
+        "summary": "Born in Shiggaon, Karnataka, Sudha Murty worked as a computer scientist and engineer before leading the Infosys Foundation's education and community initiatives, and received the Padma Shri and Padma Bhushan."
+      }
+    ],
+    "careerHeading": "Practical Career & Skill Tips",
+    "careerSubtitle": "Actionable habits for students and early-career professionals.",
+    "careerTips": [
+      {
+        "title": "Build a Clear, Evidence-Based CV",
+        "body": "List projects, internships, certifications, and measurable work clearly on one or two clean pages."
+      },
+      {
+        "title": "Verify Job Offers & Employers",
+        "body": "Research company websites, official email domains, and never pay security deposits or fees to get an interview."
+      },
+      {
+        "title": "Strengthen Digital & Communication Skills",
+        "body": "Practise writing concise emails, speaking clearly about your work, and backing up your portfolio safely."
+      },
+      {
+        "title": "Seek Mentors & Peer Networks",
+        "body": "Connect with seniors, faculty, or women's professional groups to learn about verified openings and scholarships."
+      }
+    ]
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact & Feedback | Shakti Shield",
+      "description": "Share local feedback on clarity, accessibility, or translations. Static demo form—no messages are sent to any server."
+    },
+    "heroTitle": "Contact & Feedback",
+    "heroSubtitle": "Help improve clarity, accessibility, and translations across all six languages.",
+    "demoNotice": "Note: This website runs completely in your browser with no backend server. Submitting this form validates your input locally and does not send or store data remotely.",
+    "formHeading": "Feedback Form (Local Demo)",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Enter your name",
+    "emailLabel": "Email address (optional)",
+    "emailPlaceholder": "name@example.com",
+    "topicLabel": "Feedback topic",
+    "topics": {
+      "translation": "Translation or language clarity",
+      "accessibility": "Accessibility or mobile layout",
+      "data": "Outdated helpline, law, or scholarship note",
+      "general": "General suggestion"
+    },
+    "messageLabel": "Your feedback",
+    "messagePlaceholder": "Write your suggestion here (at least 10 characters)...",
+    "submitBtn": "Validate & Preview Submission",
+    "resetBtn": "Reset Form",
+    "errName": "Please enter your name (at least 2 characters).",
+    "errEmail": "Please enter a valid email address or leave this field blank.",
+    "errMessage": "Please enter at least 10 characters in your feedback message.",
+    "successMsg": "Thank you, {name}! Your feedback passed local validation. No data was sent or uploaded because Shakti Shield has no backend server.",
+    "projectLinksHeading": "Project & GitHub Links",
+    "liveUrlLabel": "Permanent Live URL:",
+    "repoUrlLabel": "GitHub Repository:",
+    "githubIdLabel": "GitHub ID:"
+  },
+  "footer": {
+    "tagline": "Prevent, Protect, Empower — Simple safety, rights, and empowerment guidance for India.",
+    "disclaimer": "Disclaimer: General information only, not legal advice and not a substitute for emergency services (112).",
+    "liveLink": "Permanent Live URL",
+    "repoLink": "GitHub Repo",
+    "limitationsTitle": "Important Limitations",
+    "limitation1": "SOS alerts are alert assistance: you must tap send in WhatsApp or SMS.",
+    "limitation2": "Data is stored only in your browser (localStorage).",
+    "limitation3": "Quick Exit does not clear earlier browser history.",
+    "limitation4": "Laws, helplines, and scholarship details change; verify from official sources.",
+    "limitation5": "Translations are machine-assisted drafts pending native-speaker review.",
+    "copyright": "Shakti Shield • Six-language public safety resource • No analytics or tracking"
+  }
+}

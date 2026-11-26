@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="shakti-base" content="..">
+  <title>Know Your Rights | Shakti Shield</title>
+  <meta name="description" content="Searchable and filterable guide to women's legal rights in India under BNS, BNSS, POSH Act 2013, and Domestic Violence Act 2005.">
+  <meta name="theme-color" content="#5B2A86">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="icon" type="image/png" href="../icons/icon-192.png">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('shakti_theme');
+        if (t === 'dark' || (!t && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body data-page-title-key="rights.meta.title" data-page-desc-key="rights.meta.description">
+  <a href="#main-content" class="skip-link" data-i18n="skipLink">Skip to main content</a>
+
+  <!-- Privacy Notice Banner -->
+  <div id="privacy-banner" class="privacy-banner" role="region" aria-label="Privacy notice">
+    <div class="container privacy-banner__inner">
+      <p class="privacy-banner__text">
+        <span aria-hidden="true">&#128274;</span>
+        <span data-i18n="privacy.banner">Your data stays on your device. No tracking, no analytics, and no account needed.</span>
+      </p>
+      <button type="button" id="privacy-dismiss" class="privacy-banner__close" data-i18n="privacy.dismiss">Dismiss privacy notice</button>
+    </div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a href="../index.html" class="brand-link">
+          <span class="brand-link__icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <path d="M9 12l2 2 4-4"></path>
+            </svg>
+          </span>
+          <span class="brand-link__text" data-i18n="brand.name">Shakti Shield</span>
+        </a>
+
+        <div class="nav-controls">
+          <label for="language-select" class="sr-only" data-i18n="nav.languageLabel">Select language</label>
+          <select id="language-select" class="lang-select" aria-label="Select language" data-i18n-aria="nav.languageLabel">
+            <option value="en" lang="en">English</option>
+            <option value="hi" lang="hi">हिन्दी</option>
+            <option value="bn" lang="bn">বাংলা</option>
+            <option value="ta" lang="ta">தமிழ்</option>
+            <option value="kn" lang="kn">ಕನ್ನಡ</option>
+            <option value="te" lang="te">తెలుగు</option>
+          </select>
+
+          <button type="button" id="theme-toggle" class="icon-btn" aria-pressed="false" aria-label="Switch to dark mode">
+            <span data-theme-icon aria-hidden="true">&#9790;</span>
+            <span data-theme-label data-i18n="nav.darkModeLabel">Dark</span>
+          </button>
+
+          <button type="button" id="quick-exit-btn" class="quick-exit-btn" data-quick-exit aria-label="Quick Exit: leave this site immediately for a neutral page, or press Escape twice" data-i18n-aria="quickExit.ariaLabel">
+            <span aria-hidden="true">&#8599;</span>
+            <span data-i18n="quickExit.label">Quick Exit</span>
+          </button>
+
+          <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu" data-i18n-aria="nav.menuToggle">
+            &#9776;
+          </button>
+        </div>
+
+        <nav id="nav-menu" class="nav-menu" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="../index.html" class="nav-link" data-i18n="nav.home">Home</a></li>
+            <li><a href="emergency.html" class="nav-link" data-i18n="nav.emergency">Emergency</a></li>
+            <li><a href="toolkit.html" class="nav-link" data-i18n="nav.toolkit">Safety Toolkit</a></li>
+            <li><a href="incident-guide.html" class="nav-link" data-i18n="nav.incidentGuide">Incident Guide</a></li>
+            <li><a href="cyber.html" class="nav-link" data-i18n="nav.cyber">Cyber Safety</a></li>
+            <li><a href="rights.html" class="nav-link" data-i18n="nav.rights">Know Your Rights</a></li>
+            <li><a href="defence.html" class="nav-link" data-i18n="nav.defence">Self-Defence</a></li>
+            <li><a href="quiz.html" class="nav-link" data-i18n="nav.quiz">Safety Quiz</a></li>
+            <li><a href="empowerment.html" class="nav-link" data-i18n="nav.empowerment">Empowerment</a></li>
+            <li><a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Header & Key Context Notes -->
+    <section class="section" aria-labelledby="rights-title">
+      <div class="container">
+        <div class="section__header">
+          <h1 id="rights-title" data-i18n="rights.heroTitle">Know Your Rights</h1>
+          <p class="section__subtitle" data-i18n="rights.heroSubtitle">
+            Plain-language guide to key laws protecting women in India. General information only, not legal advice.
+          </p>
+        </div>
+
+        <article class="tool-card tool-card--primary">
+          <h2 style="font-size:1.2rem;" data-i18n="rights.notesHeading">Key Facts About Current Laws</h2>
+          <ul id="rights-law-notes" class="wizard-step-list"></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Searchable & Filterable Legal Rights Accordion -->
+    <section class="section section--soft" aria-label="Verified legal rights directory">
+      <div class="container">
+        <div class="search-filter-bar">
+          <div class="form-group">
+            <label for="rights-search-input" class="form-label" data-i18n="rights.searchLabel">Search rights or section</label>
+            <input type="search" id="rights-search-input" class="form-input" placeholder="Search in your language or English (e.g. FIR, 78, workplace)..." data-i18n-placeholder="rights.searchPlaceholder">
+          </div>
+
+          <div id="rights-filters" class="filter-pills" role="group" aria-label="Filter by category" data-i18n-aria="rights.filterLabel">
+            <button type="button" class="filter-btn" data-category="all" aria-pressed="true" data-i18n="rights.filters.all">All Laws</button>
+            <button type="button" class="filter-btn" data-category="bns" aria-pressed="false" data-i18n="rights.filters.bns">BNS Chapter V</button>
+            <button type="button" class="filter-btn" data-category="reporting" aria-pressed="false" data-i18n="rights.filters.reporting">FIR &amp; Escalation (BNSS)</button>
+            <button type="button" class="filter-btn" data-category="workplace_domestic" aria-pressed="false" data-i18n="rights.filters.workplace_domestic">Workplace &amp; Domestic</button>
+          </div>
+        </div>
+
+        <p id="rights-count" class="checklist-progress" role="status" aria-live="polite"></p>
+        <p id="rights-no-results" class="card__desc" data-i18n="rights.noResults" hidden>
+          No matching legal entries found. Try another keyword or select All Laws.
+        </p>
+
+        <div id="rights-accordion" class="accordion-list"></div>
+
+        <div class="meta-note-bar">
+          <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+          <span data-i18n="common.lastVerified">Last verified: 2026-11-25</span>
+          <span data-i18n="common.verifySource">Verify from official sources.</span>
+          <span data-i18n="common.notLegalAdvice">General information only, not legal advice.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to File a Complaint or FIR -->
+    <section class="section" aria-labelledby="rights-fir-heading">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="rights-fir-heading" data-i18n="rights.firGuide.heading">How to File a Complaint or FIR</h2>
+          <p class="section__subtitle" data-i18n="rights.firGuide.subtitle">
+            Practical steps for Zero FIR, e-FIR, and escalating a refusal (verify from official sources).
+          </p>
+        </div>
+
+        <div id="rights-fir-steps" class="cards-grid"></div>
+
+        <div class="meta-note-bar">
+          <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+          <span data-i18n="common.verifySource">Verify from official sources.</span>
+          <span data-i18n="common.notLegalAdvice">General information only, not legal advice.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-title" data-i18n="brand.name">Shakti Shield</h2>
+          <p class="card__desc" data-i18n="footer.tagline">Prevent, Protect, Empower — Simple safety, rights, and empowerment guidance for India.</p>
+                    <p class="footer-disclaimer" data-i18n="footer.disclaimer">
+            Disclaimer: General information only, not legal advice and not a substitute for emergency services (112).
+          </p>
+          <div class="footer-links">
+            <a href="https://nihaal26bca3079-sketch.github.io/Workshop-/shakti-shield/" target="_blank" rel="noopener noreferrer" data-i18n="footer.liveLink">Permanent Live URL</a>
+            <span aria-hidden="true">&bull;</span>
+            <a href="https://github.com/nihaal26bca3079-sketch/Workshop-/tree/main/shakti-shield" target="_blank" rel="noopener noreferrer" data-i18n="footer.repoLink">GitHub Repo</a>
+            <span aria-hidden="true">&bull;</span>
+            <a href="https://github.com/nihaal26bca3079-sketch" target="_blank" rel="noopener noreferrer">GitHub: @nihaal26bca3079-sketch</a>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="footer-title" data-i18n="footer.limitationsTitle">Important Limitations</h2>
+          <ul class="footer-list">
+            <li data-i18n="footer.limitation1">SOS alerts are alert assistance: you must tap send in WhatsApp or SMS.</li>
+            <li data-i18n="footer.limitation2">Data is stored only in your browser (localStorage).</li>
+            <li data-i18n="footer.limitation3">Quick Exit does not clear earlier browser history.</li>
+            <li data-i18n="footer.limitation4">Laws, helplines, and scholarship details change; verify from official sources.</li>
+            <li data-i18n="footer.limitation5">Translations are machine-assisted drafts pending native-speaker review.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="footer.copyright">Shakti Shield • Six-language public safety resource • No analytics or tracking</span>
+        <span data-i18n="common.lastUpdated">Last updated: November 2026</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/fallback-data.js"></script>
+  <script src="../js/language.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/search.js"></script>
+</body>
+</html>

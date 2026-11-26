@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Shakti Shield — Responsive Layout Rules (css/responsive.css)
+   Mobile-first breakpoints supporting 360px screens and 30% longer text
+   ========================================================================== */
+
+/* Small phones (360px and up) */
+@media (max-width: 420px) {
+  .container {
+    padding: 0 0.75rem;
+  }
+
+  .navbar {
+    gap: 0.5rem;
+  }
+
+  .nav-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .lang-select {
+    flex: 1 1 auto;
+    min-width: 110px;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+  }
+}
+
+/* Tablets and larger phones (640px and up) */
+@media (min-width: 640px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .helplines-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .facts-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .dos-donts-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .wizard-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Medium screens / small laptops (900px and up) */
+@media (min-width: 900px) {
+  .hero {
+    padding: 3rem 0 3.25rem;
+  }
+
+  .hero__grid {
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.85fr);
+    gap: 2.5rem;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .helplines-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .emergency-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+}
+
+/* Desktop navigation (1080px and up) */
+@media (min-width: 1080px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+    width: 100%;
+    padding: 0.45rem 0 0.15rem;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .nav-link {
+    width: auto;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}

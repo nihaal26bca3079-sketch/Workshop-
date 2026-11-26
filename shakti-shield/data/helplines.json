@@ -1,0 +1,35 @@
+{
+  "last_verified": "2026-11-25",
+  "helplines": [
+    {
+      "id": "h112",
+      "number": "112",
+      "verify": false,
+      "priority": true
+    },
+    {
+      "id": "h1091",
+      "number": "1091",
+      "verify": false,
+      "priority": false
+    },
+    {
+      "id": "h181",
+      "number": "181",
+      "verify": false,
+      "priority": true
+    },
+    {
+      "id": "h7827170170",
+      "number": "7827170170",
+      "verify": true,
+      "priority": false
+    },
+    {
+      "id": "h1930",
+      "number": "1930",
+      "verify": true,
+      "priority": false
+    }
+  ]
+}

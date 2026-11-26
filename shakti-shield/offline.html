@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offline | Shakti Shield</title>
+  <meta name="theme-color" content="#5B2A86">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.25rem;
+      background-color: #FAF7FC;
+      color: #1E102B;
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+    }
+    .offline-card {
+      width: 100%;
+      max-width: 560px;
+      background: #FFFFFF;
+      border: 1px solid #DECFEA;
+      border-top: 6px solid #5B2A86;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 28px rgba(91, 42, 134, 0.12);
+    }
+    .offline-urgent {
+      padding: 0.85rem 1rem;
+      border-left: 4px solid #D62828;
+      background: #F3ECFA;
+      border-radius: 8px;
+      margin: 1rem 0;
+      font-weight: 600;
+    }
+    .offline-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.15rem;
+    }
+    .offline-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0.65rem 1.2rem;
+      border-radius: 999px;
+      border: none;
+      font: inherit;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .offline-btn--emergency { background: #D62828; color: #FFFFFF; }
+    .offline-btn--primary { background: #5B2A86; color: #FFFFFF; }
+    .offline-btn--outline { background: transparent; color: #1E102B; border: 1px solid #DECFEA; }
+    @media (prefers-color-scheme: dark) {
+      body { background-color: #1A1022; color: #F3EAF9; }
+      .offline-card { background: #261735; border-color: #4A3163; }
+      .offline-urgent { background: #311F45; }
+      .offline-btn--outline { color: #F3EAF9; border-color: #4A3163; }
+    }
+  </style>
+</head>
+<body>
+  <main class="offline-card">
+    <h1>Shakti Shield</h1>
+    <p>You appear to be offline, and this page is not yet stored in your browser cache.</p>
+
+    <div class="offline-urgent" role="note">
+      If you are in immediate danger, call 112 first. Phone calls to 112, 181, and 1091 work over mobile networks without internet (availability varies by state; verify from official sources).
+    </div>
+
+    <div class="offline-actions">
+      <a href="tel:112" class="offline-btn offline-btn--emergency">Call 112</a>
+      <a href="tel:181" class="offline-btn offline-btn--primary">Call 181</a>
+      <button type="button" class="offline-btn offline-btn--outline" onclick="window.location.reload()">Try Again</button>
+      <a href="index.html" class="offline-btn offline-btn--outline">Home</a>
+    </div>
+
+    <p style="margin-top:1.25rem;font-size:0.875rem;opacity:0.85;">
+      General information only, not legal advice. • Last updated: November 2026
+    </p>
+  </main>
+</body>
+</html>
