@@ -11,7 +11,8 @@ Last updated: **November 2026** (verified data as of `2026-11-25`).
 
 - **Permanent Live Website URL:** [https://nihaal26bca3079-sketch.github.io/Workshop-/shakti-shield/](https://nihaal26bca3079-sketch.github.io/Workshop-/shakti-shield/)
 - **GitHub Repository:** [https://github.com/nihaal26bca3079-sketch/Workshop-/tree/main/shakti-shield](https://github.com/nihaal26bca3079-sketch/Workshop-/tree/main/shakti-shield)
-- **GitHub Profile (ID Link):** [https://github.com/nihaal26bca3079-sketch](https://github.com/nihaal26bca3079-sketch)
+- **GitHub Username / Profile:** [https://github.com/nihaalbelim655](https://github.com/nihaalbelim655) (`@nihaalbelim655`)
+- **GitHub Email ID:** `nihaalbelim655@gmail.com`
 
 ---
 

@@ -1,9 +1,9 @@
-/**
+﻿/**
  * Shakti Shield — Service Worker (service-worker.js)
  * Bump CACHE_VERSION whenever any HTML, CSS, JS, data/*.json, or data/lang/*.json file changes.
  */
 
-const CACHE_VERSION = 'shakti-shield-v1.0.2';
+const CACHE_VERSION = 'shakti-shield-v1.0.3';
 const CACHE_NAME = CACHE_VERSION;
 
 const PRECACHE_ASSETS = [

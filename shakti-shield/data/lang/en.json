@@ -555,48 +555,146 @@
       "workplace_domestic": "Workplace & Domestic"
     },
     "countLabel": "Showing {count} of {total} entries",
+    "expandAllBtn": "Expand All",
+    "collapseAllBtn": "Collapse All",
     "noResults": "No matching legal entries found. Try another keyword or select All Laws.",
     "entryVerifyNote": "Last verified: 2026-11-25 • Verify from official sources.",
+    "detailHeadings": {
+      "meaning": "What This Law Means",
+      "examples": "Common Situations Covered",
+      "whatToDo": "Practical Steps & Reporting",
+      "keyNote": "Important Note"
+    },
     "items": {
       "bns_74": {
         "title": "Outraging modesty of a woman",
-        "summary": "Covers assault or use of criminal force against a woman intending to outrage or knowing it is likely to outrage her modesty."
+        "summary": "BNS Section 74 applies when someone assaults or uses criminal force against a woman intending to outrage her modesty, or knowing their act is likely to do so. Offences against women and children are grouped in Chapter V of the BNS (verify exact wording from official sources).",
+        "examples": [
+          "Grabbing, pushing, or touching a woman forcefully in a bus, train, street, or crowded place.",
+          "Blocking a woman's path and using unwanted physical force or intimidation."
+        ],
+        "whatToDo": [
+          "Move quickly to a lit, populated space and call 112 in immediate danger (or 181 / 1091 for women's support).",
+          "Note vehicle numbers, bus/train route, time, place, and witnesses, and file an FIR or Zero FIR at any police station under BNSS Section 173."
+        ],
+        "keyNote": "Grouped under Chapter V of the BNS. General information only, not legal advice."
       },
       "bns_75": {
         "title": "Sexual harassment",
-        "summary": "Covers unwelcome physical contact, demands or requests for sexual favours, showing pornography against will, or making sexually coloured remarks."
+        "summary": "BNS Section 75 addresses sexual harassment, including unwelcome physical advances, demands or requests for sexual favours, showing pornography against a woman's will, or making sexually coloured remarks (verify exact statutory text from official sources).",
+        "examples": [
+          "Unwelcome physical contact or explicit sexual remarks in public spaces, hostels, or transit.",
+          "Repeated sexual demands or sending explicit material without consent."
+        ],
+        "whatToDo": [
+          "Save chats, call logs, messages, or witness names; move away safely and tell a trusted person.",
+          "Report via 112 / 181, file an FIR under BNSS Section 173, or if at work, also use the POSH Act 2013 Internal Committee (IC) / SHe-Box portal (verify)."
+        ],
+        "keyNote": "Applies across public and private settings; workplace cases may also be addressed under POSH Act 2013 (verify)."
       },
       "bns_76": {
         "title": "Assault with intent to disrobe",
-        "summary": "Covers assault or use of criminal force on any woman with the intention of disrobing her or compelling her to be naked."
+        "summary": "BNS Section 76 covers assaulting or using criminal force against any woman—or abetting such an act—with the intention of disrobing her or compelling her to be naked (verify exact provisions from official sources).",
+        "examples": [
+          "Pulling, tearing, or forcibly removing a woman's clothing in public or private.",
+          "Using physical force or threats to compel someone to undress."
+        ],
+        "whatToDo": [
+          "Prioritise immediate physical safety: call 112 first, seek shelter with trusted people or nearby authorities, and get medical attention if injured.",
+          "Preserve torn clothing or physical/digital evidence safely and register an FIR or Zero FIR under BNSS Section 173 (the FIR copy is free)."
+        ],
+        "keyNote": "Serious offence under Chapter V of the BNS. Always seek urgent police/medical help via 112 first."
       },
       "bns_77": {
         "title": "Voyeurism",
-        "summary": "Covers watching or capturing images of a woman in a private act without her consent, or sharing such images without consent."
+        "summary": "BNS Section 77 protects a woman's privacy in private moments. It covers watching or capturing images or videos of a woman engaging in a private act where she expects privacy, or sharing/disseminating such images without her consent (verify from official sources).",
+        "examples": [
+          "Hidden cameras in changing rooms, washrooms, hostels, or hotel rooms.",
+          "Recording or sharing private photos or videos without consent—even if someone consented to recording earlier, sharing without consent is covered (verify)."
+        ],
+        "whatToDo": [
+          "Do not delete messages or links; capture URLs, usernames, dates, and uncropped screenshots safely.",
+          "Call 112 if a hidden device is found on-site; report online sharing on cybercrime.gov.in (verify) and file an FIR under BNSS Section 173."
+        ],
+        "keyNote": "Covers both physical recording and sharing private imagery without consent (verify exact scope from official sources)."
       },
       "bns_78": {
         "title": "Stalking",
-        "summary": "Covers following or repeatedly contacting a woman despite a clear indication of disinterest, or monitoring her online/electronic activity (verify exact provisions)."
+        "summary": "BNS Section 78 covers both physical stalking and cyberstalking: following a woman or attempting to contact her repeatedly to foster personal interaction despite a clear indication of disinterest, or monitoring her use of the internet, email, or electronic communication (verify exact provisions).",
+        "examples": [
+          "Repeatedly waiting outside a college, hostel, office, or home, or following someone's commute.",
+          "Creating repeated new phone numbers or fake profiles to message after being blocked, or tracking online activity."
+        ],
+        "whatToDo": [
+          "Clearly state once (if safe) that you do not want contact, then save call logs, screenshots, dates, and CCTV locations.",
+          "Vary your travel route/times, alert trusted contacts, and report via 112 / 181, cybercrime.gov.in (for online stalking; verify), or Zero FIR (BNSS Section 173)."
+        ],
+        "keyNote": "Covers both offline following and online monitoring (verify exceptions/details from official sources)."
       },
       "bns_79": {
         "title": "Insulting the modesty of a woman",
-        "summary": "Covers words, sounds, gestures, or exhibiting objects intended to insult the modesty of a woman or intrude upon her privacy."
+        "summary": "BNS Section 79 covers uttering words, making sounds or gestures, or exhibiting any object intending that it be heard or seen by a woman to insult her modesty, or intruding upon her privacy (verify exact statutory wording).",
+        "examples": [
+          "Catcalling, obscene gestures, lewd comments, or harassing phone calls/voice notes.",
+          "Intentionally intruding upon a woman's private space to intimidate or demean her."
+        ],
+        "whatToDo": [
+          "Move to a safe, populated place and record time, location, caller numbers, or witnesses.",
+          "Call 1091 / 181 (or 112 in immediate danger) and submit a complaint or FIR under BNSS Section 173."
+        ],
+        "keyNote": "Applies to verbal, gestural, and privacy-intrusion acts under Chapter V of the BNS."
       },
       "bnss_173": {
         "title": "Filing an FIR, including Zero FIR and e-FIR",
-        "summary": "Allows registering a Zero FIR at any police station regardless of where the offence happened, supports e-FIR where notified, and guarantees a free FIR copy to the informant."
+        "summary": "BNSS Section 173 sets out how information of a cognisable offence is recorded as an FIR. Crucially, you can file a Zero FIR at any police station regardless of where the offence happened, use e-FIR where notified, and receive a copy of the FIR completely free of cost (verify local e-FIR rules).",
+        "examples": [
+          "An incident happened while travelling in another city or district, and you report it at the police station closest to your home or destination.",
+          "Submitting an electronic complaint (e-FIR) on an official state police portal where enabled (verify state procedure)."
+        ],
+        "whatToDo": [
+          "Write down a clear, factual summary (who, what, when, where) and carry two copies so you can ask for a stamped receipt.",
+          "If the station says the area is outside their limit, politely request a Zero FIR under BNSS Section 173 and ask for your free FIR copy."
+        ],
+        "keyNote": "BNSS replaced the CrPC on 1 July 2024. The informant is entitled to a free copy of the FIR."
       },
       "bnss_175_3": {
         "title": "If police refuse to register an FIR",
-        "summary": "Write to the Superintendent of Police first; if no action is taken, you can approach the Magistrate under BNSS Section 175(3)."
+        "summary": "If a police station refuses or delays registering your FIR, the law gives you a clear two-step escalation path: first write to the Superintendent of Police, and if no action follows, approach the Magistrate under BNSS Section 175(3) (verify exact procedure).",
+        "examples": [
+          "An officer tells you to come back later without recording your complaint, or declines a Zero FIR.",
+          "No action is taken even after submitting a written complaint at the station."
+        ],
+        "whatToDo": [
+          "Step 1: Send the substance of your complaint in writing (by post or in person with receipt) to the Superintendent of Police.",
+          "Step 2: Keep postal/receipt proof; if still unregistered, apply to the Magistrate under BNSS Section 175(3) (seek qualified legal aid if needed)."
+        ],
+        "keyNote": "Always keep dated copies and dispatch receipts of every written complaint you submit."
       },
       "posh_2013": {
         "title": "Workplace sexual harassment (POSH Act 2013)",
-        "summary": "Provides a formal mechanism through an organisation's Internal Committee (IC) or Local Committee; complaints can also go through the SHe-Box portal (verify)."
+        "summary": "The POSH Act 2013 protects women (employees, interns, trainees, visitors, or students in covered workplaces) from workplace sexual harassment through a formal Internal Committee (IC) or Local Committee. Complaints can also go through the SHe-Box portal (verify).",
+        "examples": [
+          "Unwelcome physical contact, sexually coloured remarks, or quid-pro-quo pressure in an office, campus workplace, or work-related travel/online meeting.",
+          "Hostile work environment created by repeated inappropriate messages or behaviour from a colleague or senior."
+        ],
+        "whatToDo": [
+          "Save work emails, chat screenshots, meeting records, and witness names on a personal device.",
+          "File a written complaint with your workplace Internal Committee (IC), check the SHe-Box portal (verify), and report criminal acts under BNS/BNSS if needed."
+        ],
+        "keyNote": "Covers physical offices as well as work-from-home/online work interactions (verify current rules from official sources)."
       },
       "pwdva_2005": {
         "title": "Domestic violence (Protection of Women from Domestic Violence Act 2005)",
-        "summary": "Provides civil protection, residence, and relief against physical, emotional, verbal, sexual, or economic abuse in a domestic relationship (verify)."
+        "summary": "The Protection of Women from Domestic Violence Act 2005 provides civil protection, residence rights, and support against physical, emotional, verbal, sexual, or economic abuse inside a domestic relationship (verify from official sources).",
+        "examples": [
+          "Physical harm, repeated verbal humiliation, threats, or forced isolation inside the home.",
+          "Economic abuse such as taking away earnings, blocking access to basic household resources, or threatening eviction."
+        ],
+        "whatToDo": [
+          "If in immediate physical danger, move to a safe room or neighbour's home and call 112 first.",
+          "Reach out to 181 (24x7 women helpline) or NCW domestic violence helpline 7827170170 (verify), save medical/injury records, and seek protection orders (verify)."
+        ],
+        "keyNote": "Provides civil remedies (such as protection and residence orders) alongside any criminal remedies under BNS (verify from official sources)."
       }
     },
     "firGuide": {
@@ -612,8 +710,12 @@
           "body": "Where enabled by your state police, an e-FIR can be submitted online (verify local rules). For cyber incidents, also report on cybercrime.gov.in or call 1930 (verify)."
         },
         {
-          "title": "3. Escalation If Police Refuse",
+          "title": "3. Escalation If Police Refuse (BNSS Section 175(3))",
           "body": "Send a written summary of your complaint by post or in person to the Superintendent of Police. If still unregistered, apply to the Magistrate under BNSS Section 175(3)."
+        },
+        {
+          "title": "4. What to Carry & Keep Safely",
+          "body": "Carry a written timeline (date, time, place, details), ID proof, screenshots/call logs, medical notes if any, and always keep a stamped copy or acknowledgement number."
         }
       ]
     }

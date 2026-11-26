@@ -121,8 +121,14 @@
         law.ref,
         activeItem.title || '',
         activeItem.summary || '',
+        ...(Array.isArray(activeItem.examples) ? activeItem.examples : []),
+        ...(Array.isArray(activeItem.whatToDo) ? activeItem.whatToDo : []),
+        activeItem.keyNote || '',
         enItem.title || '',
-        enItem.summary || ''
+        enItem.summary || '',
+        ...(Array.isArray(enItem.examples) ? enItem.examples : []),
+        ...(Array.isArray(enItem.whatToDo) ? enItem.whatToDo : []),
+        enItem.keyNote || ''
       ]);
     });
 
@@ -198,15 +204,62 @@
       panel.setAttribute('aria-labelledby', btnId);
       panel.hidden = !isExpanded;
 
+      const meaningH = document.createElement('h4');
+      meaningH.className = 'accordion-subheading';
+      meaningH.textContent = t('rights.detailHeadings.meaning', 'What This Law Means');
+      panel.appendChild(meaningH);
+
       const summaryP = document.createElement('p');
       summaryP.className = 'accordion-summary';
       summaryP.textContent = itemText.summary || '';
+      panel.appendChild(summaryP);
+
+      if (Array.isArray(itemText.examples) && itemText.examples.length > 0) {
+        const exH = document.createElement('h4');
+        exH.className = 'accordion-subheading';
+        exH.textContent = t('rights.detailHeadings.examples', 'Common Situations Covered');
+        panel.appendChild(exH);
+
+        const exList = document.createElement('ul');
+        exList.className = 'accordion-detail-list';
+        itemText.examples.forEach((exText) => {
+          const li = document.createElement('li');
+          li.textContent = exText;
+          exList.appendChild(li);
+        });
+        panel.appendChild(exList);
+      }
+
+      if (Array.isArray(itemText.whatToDo) && itemText.whatToDo.length > 0) {
+        const doH = document.createElement('h4');
+        doH.className = 'accordion-subheading';
+        doH.textContent = t('rights.detailHeadings.whatToDo', 'Practical Steps & Reporting');
+        panel.appendChild(doH);
+
+        const doList = document.createElement('ul');
+        doList.className = 'accordion-detail-list';
+        itemText.whatToDo.forEach((stepText) => {
+          const li = document.createElement('li');
+          li.textContent = stepText;
+          doList.appendChild(li);
+        });
+        panel.appendChild(doList);
+      }
+
+      if (itemText.keyNote) {
+        const noteBox = document.createElement('div');
+        noteBox.className = 'accordion-key-note';
+        const noteLabel = document.createElement('strong');
+        noteLabel.textContent = `${t('rights.detailHeadings.keyNote', 'Important Note')}: `;
+        const noteText = document.createTextNode(itemText.keyNote);
+        noteBox.appendChild(noteLabel);
+        noteBox.appendChild(noteText);
+        panel.appendChild(noteBox);
+      }
 
       const metaP = document.createElement('p');
       metaP.className = 'accordion-meta';
       metaP.textContent = verifyNoteText;
-
-      panel.appendChild(summaryP);
       panel.appendChild(metaP);
 
       btn.addEventListener('click', () => {
@@ -263,6 +316,23 @@
         renderRightsAccordion();
       });
     });
+
+    const expandAllBtn = document.getElementById('rights-expand-all');
+    const collapseAllBtn = document.getElementById('rights-collapse-all');
+    if (expandAllBtn) {
+      expandAllBtn.addEventListener('click', () => {
+        if (cachedRightsData && Array.isArray(cachedRightsData.laws)) {
+          cachedRightsData.laws.forEach((law) => expandedIds.add(law.id));
+          renderRightsAccordion();
+        }
+      });
+    }
+    if (collapseAllBtn) {
+      collapseAllBtn.addEventListener('click', () => {
+        expandedIds.clear();
+        renderRightsAccordion();
+      });
+    }
 
     renderLawNotes();
     renderFirSteps();
